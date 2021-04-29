@@ -1,0 +1,5357 @@
+--By Kaldr, Profile: https://v3rmillion.net/member.php?action=profile&uid=1110292          
+
+-- Instances:
+
+local DMapV2 = Instance.new("ScreenGui")
+local bar = Instance.new("Frame")
+local titlebar = Instance.new("TextLabel")
+local back = Instance.new("ImageLabel")
+local fixbutton = Instance.new("TextButton")
+local labels = Instance.new("Frame")
+local vaultlick = Instance.new("TextButton")
+local subway = Instance.new("TextButton")
+local roses = Instance.new("TextButton")
+local Beluga = Instance.new("TextButton")
+local luxuryapartments = Instance.new("TextButton")
+local farsafe = Instance.new("TextButton")
+local cluck = Instance.new("TextButton")
+local BigSlop2 = Instance.new("TextButton")
+local bigpoppa = Instance.new("TextButton")
+local bank = Instance.new("TextButton")
+local bananacars = Instance.new("TextButton")
+local hideoutsafe = Instance.new("TextButton")
+local alleysafe = Instance.new("TextButton")
+local Vaults = Instance.new("TextButton")
+local QuavaJuice = Instance.new("TextButton")
+local MeleeShop = Instance.new("TextButton")
+local Liquor = Instance.new("TextButton")
+local Laundromat = Instance.new("TextButton")
+local Gym = Instance.new("TextButton")
+local Gunshop1 = Instance.new("TextButton")
+local GunShop = Instance.new("TextButton")
+local FarLiquor = Instance.new("TextButton")
+local BigSlop = Instance.new("TextButton")
+local roses2 = Instance.new("TextButton")
+local roses3 = Instance.new("TextButton")
+local roses4 = Instance.new("TextButton")
+local Liquor2 = Instance.new("TextButton")
+local vaultlick2 = Instance.new("TextButton")
+local cluck2 = Instance.new("TextButton")
+local FarLiquor2 = Instance.new("TextButton")
+local cementarysafe = Instance.new("TextButton")
+local pg1 = Instance.new("Frame")
+local tp2player3 = Instance.new("TextButton")
+local playerbox3 = Instance.new("TextBox")
+local tp2player2 = Instance.new("TextButton")
+local playerbox2 = Instance.new("TextBox")
+local loop = Instance.new("TextButton")
+local playerbox = Instance.new("TextBox")
+local tp2player = Instance.new("TextButton")
+local twirl = Instance.new("TextButton")
+local orbit = Instance.new("TextButton")
+local orbit2 = Instance.new("TextButton")
+local twirl2 = Instance.new("TextButton")
+local loop2 = Instance.new("TextButton")
+local loop3 = Instance.new("TextButton")
+local twirl3 = Instance.new("TextButton")
+local orbit3 = Instance.new("TextButton")
+local next = Instance.new("TextButton")
+local pg2 = Instance.new("Frame")
+local tp2player6 = Instance.new("TextButton")
+local playerbox6 = Instance.new("TextBox")
+local tp2player5 = Instance.new("TextButton")
+local playerbox5 = Instance.new("TextBox")
+local playerbox4 = Instance.new("TextBox")
+local tp2player4 = Instance.new("TextButton")
+local loop4 = Instance.new("TextButton")
+local twirl4 = Instance.new("TextButton")
+local orbit4 = Instance.new("TextButton")
+local loop5 = Instance.new("TextButton")
+local twirl5 = Instance.new("TextButton")
+local orbit5 = Instance.new("TextButton")
+local loop6 = Instance.new("TextButton")
+local twirl6 = Instance.new("TextButton")
+local orbit6 = Instance.new("TextButton")
+local next2 = Instance.new("TextButton")
+local _1 = Instance.new("TextLabel")
+local _2 = Instance.new("TextLabel")
+local tppbutton = Instance.new("ImageButton")
+local tplabel = Instance.new("TextLabel")
+local hkdbutton = Instance.new("ImageButton")
+local hotkeylabel = Instance.new("TextLabel")
+local hkPage = Instance.new("Frame")
+local SHHK = Instance.new("TextBox")
+local SHButton = Instance.new("TextButton")
+local speedNum = Instance.new("TextBox")
+local hkLabel = Instance.new("TextLabel")
+local speedLabel = Instance.new("TextLabel")
+local ldhk = Instance.new("TextBox")
+local LDash = Instance.new("TextLabel")
+local RDash = Instance.new("TextLabel")
+local rdhk = Instance.new("TextBox")
+local BDash = Instance.new("TextLabel")
+local bdhk = Instance.new("TextBox")
+local fdhk = Instance.new("TextBox")
+local FDash = Instance.new("TextLabel")
+local p1label = Instance.new("TextLabel")
+local p1hk = Instance.new("TextBox")
+local p2label = Instance.new("TextLabel")
+local p2hk = Instance.new("TextBox")
+local p3label = Instance.new("TextLabel")
+local p3hk = Instance.new("TextBox")
+local MethodButton = Instance.new("TextButton")
+local stoptweenbutton = Instance.new("TextButton")
+local open = Instance.new("TextButton")
+local close = Instance.new("TextButton")
+
+--Properties:
+
+DMapV2.Name = "D-Map V2"
+DMapV2.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+DMapV2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+DMapV2.ResetOnSpawn = false
+
+bar.Name = "bar"
+bar.Parent = DMapV2
+bar.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+bar.BorderColor3 = Color3.fromRGB(22, 22, 22)
+bar.BorderSizePixel = 3
+bar.Position = UDim2.new(0.50093472, 0, 0.121586733, 0)
+bar.Size = UDim2.new(0, 202, 0, 25)
+
+titlebar.Name = "titlebar"
+titlebar.Parent = bar
+titlebar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+titlebar.BackgroundTransparency = 1.000
+titlebar.Position = UDim2.new(0.042663876, 0, 0, -1)
+titlebar.Size = UDim2.new(0, 130, 0, 25)
+titlebar.Font = Enum.Font.SciFi
+titlebar.Text = "D-Map V2 by Kaldr"
+titlebar.TextColor3 = Color3.fromRGB(88, 46, 255)
+titlebar.TextSize = 18.000
+
+back.Name = "back"
+back.Parent = bar
+back.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+back.BorderColor3 = Color3.fromRGB(22, 22, 22)
+back.BorderSizePixel = 5
+back.Position = UDim2.new(-0.43069306, 0, 1.12000167, 0)
+back.Size = UDim2.new(0, 405, 0, 326)
+back.Image = "http://www.roblox.com/asset/?id=4598404877"
+back.ImageColor3 = Color3.fromRGB(88, 46, 255)
+
+fixbutton.Name = "fix button"
+fixbutton.Parent = back
+fixbutton.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+fixbutton.BorderColor3 = Color3.fromRGB(22, 22, 22)
+fixbutton.BorderSizePixel = 3
+fixbutton.Position = UDim2.new(0.0281768441, 0, 0.0670000091, -10)
+fixbutton.Size = UDim2.new(0, 83, 0, 23)
+fixbutton.Font = Enum.Font.SciFi
+fixbutton.Text = "FIX"
+fixbutton.TextColor3 = Color3.fromRGB(88, 46, 255)
+fixbutton.TextSize = 17.000
+
+labels.Name = "labels"
+labels.Parent = back
+labels.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+labels.BackgroundTransparency = 1.000
+labels.BorderColor3 = Color3.fromRGB(31, 31, 31)
+labels.Position = UDim2.new(0.0346576013, 0, 0.524862826, 0)
+labels.Size = UDim2.new(0, 338, 0, 132)
+
+vaultlick.Name = "vault lick"
+vaultlick.Parent = labels
+vaultlick.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+vaultlick.BorderColor3 = Color3.fromRGB(22, 22, 22)
+vaultlick.BorderSizePixel = 3
+vaultlick.Position = UDim2.new(0.304502964, 0, 0.940454543, -2)
+vaultlick.Size = UDim2.new(0, 33, 0, 21)
+vaultlick.Font = Enum.Font.Highway
+vaultlick.Text = "VL1"
+vaultlick.TextColor3 = Color3.fromRGB(83, 255, 146)
+vaultlick.TextSize = 14.000
+
+subway.Name = "subway"
+subway.Parent = labels
+subway.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+subway.BorderColor3 = Color3.fromRGB(22, 22, 22)
+subway.BorderSizePixel = 3
+subway.Position = UDim2.new(0.0299478881, 0, 0.469848514, -1)
+subway.Size = UDim2.new(0, 79, 0, 21)
+subway.Font = Enum.Font.Highway
+subway.Text = "Subway"
+subway.TextColor3 = Color3.fromRGB(83, 255, 146)
+subway.TextSize = 15.000
+
+roses.Name = "roses"
+roses.Parent = labels
+roses.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+roses.BorderColor3 = Color3.fromRGB(22, 22, 22)
+roses.BorderSizePixel = 3
+roses.Position = UDim2.new(0.0299478564, 0, 0.00484848022, 0)
+roses.Size = UDim2.new(0, 33, 0, 21)
+roses.Font = Enum.Font.Highway
+roses.Text = "R1"
+roses.TextColor3 = Color3.fromRGB(83, 255, 146)
+roses.TextSize = 15.000
+
+Beluga.Name = "Beluga"
+Beluga.Parent = labels
+Beluga.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Beluga.BorderColor3 = Color3.fromRGB(22, 22, 22)
+Beluga.BorderSizePixel = 3
+Beluga.Position = UDim2.new(0.848733723, 0, -0.230151519, 0)
+Beluga.Size = UDim2.new(0, 79, 0, 21)
+Beluga.Font = Enum.Font.Highway
+Beluga.Text = "Beluga"
+Beluga.TextColor3 = Color3.fromRGB(88, 46, 255)
+Beluga.TextSize = 15.000
+
+luxuryapartments.Name = "luxury apartments"
+luxuryapartments.Parent = labels
+luxuryapartments.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+luxuryapartments.BorderColor3 = Color3.fromRGB(22, 22, 22)
+luxuryapartments.BorderSizePixel = 3
+luxuryapartments.Position = UDim2.new(0.851502955, 0, 0.917848527, 0)
+luxuryapartments.Size = UDim2.new(0, 79, 0, 21)
+luxuryapartments.Font = Enum.Font.Highway
+luxuryapartments.Text = "LuxApart"
+luxuryapartments.TextColor3 = Color3.fromRGB(88, 46, 255)
+luxuryapartments.TextSize = 15.000
+
+farsafe.Name = "far safe"
+farsafe.Parent = labels
+farsafe.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+farsafe.BorderColor3 = Color3.fromRGB(22, 22, 22)
+farsafe.BorderSizePixel = 3
+farsafe.Position = UDim2.new(0.0299478844, 0, 0.94084847, -2)
+farsafe.Size = UDim2.new(0, 79, 0, 21)
+farsafe.Font = Enum.Font.Highway
+farsafe.Text = "Far Safe"
+farsafe.TextColor3 = Color3.fromRGB(83, 255, 146)
+farsafe.TextSize = 15.000
+
+cluck.Name = "cluck"
+cluck.Parent = labels
+cluck.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+cluck.BorderColor3 = Color3.fromRGB(22, 22, 22)
+cluck.BorderSizePixel = 3
+cluck.Position = UDim2.new(0.576502979, 0, -0.230303034, 0)
+cluck.Size = UDim2.new(0, 33, 0, 21)
+cluck.Font = Enum.Font.Highway
+cluck.Text = "MC1"
+cluck.TextColor3 = Color3.fromRGB(83, 255, 146)
+cluck.TextSize = 15.000
+
+BigSlop2.Name = "Big Slop2"
+BigSlop2.Parent = labels
+BigSlop2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+BigSlop2.BorderColor3 = Color3.fromRGB(22, 22, 22)
+BigSlop2.BorderSizePixel = 3
+BigSlop2.Position = UDim2.new(0.712502956, 0, 0.469848514, -1)
+BigSlop2.Size = UDim2.new(0, 33, 0, 21)
+BigSlop2.Font = Enum.Font.Highway
+BigSlop2.Text = "BS2"
+BigSlop2.TextColor3 = Color3.fromRGB(83, 255, 146)
+BigSlop2.TextSize = 15.000
+
+bigpoppa.Name = "big poppa"
+bigpoppa.Parent = labels
+bigpoppa.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+bigpoppa.BorderColor3 = Color3.fromRGB(22, 22, 22)
+bigpoppa.BorderSizePixel = 3
+bigpoppa.Position = UDim2.new(0.85154438, 0, 0.489848495, -5)
+bigpoppa.Size = UDim2.new(0, 79, 0, 21)
+bigpoppa.Font = Enum.Font.Highway
+bigpoppa.Text = "Big Poppa"
+bigpoppa.TextColor3 = Color3.fromRGB(88, 46, 255)
+bigpoppa.TextSize = 15.000
+
+bank.Name = "bank"
+bank.Parent = labels
+bank.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+bank.BorderColor3 = Color3.fromRGB(22, 22, 22)
+bank.BorderSizePixel = 3
+bank.Position = UDim2.new(0.304831952, 0, -0.230151519, 0)
+bank.Size = UDim2.new(0, 79, 0, 21)
+bank.Font = Enum.Font.Highway
+bank.Text = "Bank"
+bank.TextColor3 = Color3.fromRGB(83, 255, 146)
+bank.TextSize = 16.000
+
+bananacars.Name = "banana cars"
+bananacars.Parent = labels
+bananacars.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+bananacars.BorderColor3 = Color3.fromRGB(22, 22, 22)
+bananacars.BorderSizePixel = 3
+bananacars.Position = UDim2.new(0.85154438, 0, 0.689848483, -1)
+bananacars.Size = UDim2.new(0, 79, 0, 21)
+bananacars.Font = Enum.Font.Highway
+bananacars.Text = "Banan Cars"
+bananacars.TextColor3 = Color3.fromRGB(88, 46, 255)
+bananacars.TextSize = 15.000
+
+hideoutsafe.Name = "hideout safe"
+hideoutsafe.Parent = labels
+hideoutsafe.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+hideoutsafe.BorderColor3 = Color3.fromRGB(22, 22, 22)
+hideoutsafe.BorderSizePixel = 3
+hideoutsafe.Position = UDim2.new(0.576502979, 0, 0.697848499, 0)
+hideoutsafe.Size = UDim2.new(0, 79, 0, 21)
+hideoutsafe.Font = Enum.Font.Highway
+hideoutsafe.Text = "Hideout Safe"
+hideoutsafe.TextColor3 = Color3.fromRGB(83, 255, 146)
+hideoutsafe.TextSize = 15.000
+
+alleysafe.Name = "alley safe"
+alleysafe.Parent = labels
+alleysafe.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+alleysafe.BorderColor3 = Color3.fromRGB(22, 22, 22)
+alleysafe.BorderSizePixel = 3
+alleysafe.Position = UDim2.new(0.0295029581, 0, 0.697848499, 0)
+alleysafe.Size = UDim2.new(0, 79, 0, 21)
+alleysafe.Font = Enum.Font.Highway
+alleysafe.Text = "Alley Safe"
+alleysafe.TextColor3 = Color3.fromRGB(83, 255, 146)
+alleysafe.TextSize = 15.000
+
+Vaults.Name = "Vaults"
+Vaults.Parent = labels
+Vaults.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Vaults.BorderColor3 = Color3.fromRGB(22, 22, 22)
+Vaults.BorderSizePixel = 3
+Vaults.Position = UDim2.new(0.576544404, 0, 0.918151498, 0)
+Vaults.Size = UDim2.new(0, 79, 0, 21)
+Vaults.Font = Enum.Font.Highway
+Vaults.Text = "Vaults"
+Vaults.TextColor3 = Color3.fromRGB(88, 46, 255)
+Vaults.TextSize = 15.000
+
+QuavaJuice.Name = "Quava Juice"
+QuavaJuice.Parent = labels
+QuavaJuice.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+QuavaJuice.BorderColor3 = Color3.fromRGB(22, 22, 22)
+QuavaJuice.BorderSizePixel = 3
+QuavaJuice.Position = UDim2.new(0.304831952, 0, 0.697848499, 0)
+QuavaJuice.Size = UDim2.new(0, 79, 0, 21)
+QuavaJuice.Font = Enum.Font.Highway
+QuavaJuice.Text = "Quava Juice"
+QuavaJuice.TextColor3 = Color3.fromRGB(83, 255, 146)
+QuavaJuice.TextSize = 15.000
+
+MeleeShop.Name = "Melee Shop"
+MeleeShop.Parent = labels
+MeleeShop.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+MeleeShop.BorderColor3 = Color3.fromRGB(22, 22, 22)
+MeleeShop.BorderSizePixel = 3
+MeleeShop.Position = UDim2.new(0.0299478564, 0, -0.230374411, 0)
+MeleeShop.Size = UDim2.new(0, 79, 0, 21)
+MeleeShop.Font = Enum.Font.Highway
+MeleeShop.Text = "Melee Shop"
+MeleeShop.TextColor3 = Color3.fromRGB(83, 255, 146)
+MeleeShop.TextSize = 15.000
+
+Liquor.Name = "Liquor"
+Liquor.Parent = labels
+Liquor.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Liquor.BorderColor3 = Color3.fromRGB(22, 22, 22)
+Liquor.BorderSizePixel = 3
+Liquor.Position = UDim2.new(0.304831952, 0, 0.269848466, -5)
+Liquor.Size = UDim2.new(0, 33, 0, 21)
+Liquor.Font = Enum.Font.Highway
+Liquor.Text = "L1"
+Liquor.TextColor3 = Color3.fromRGB(83, 255, 146)
+Liquor.TextSize = 15.000
+
+Laundromat.Name = "Laundromat"
+Laundromat.Parent = labels
+Laundromat.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Laundromat.BorderColor3 = Color3.fromRGB(22, 22, 22)
+Laundromat.BorderSizePixel = 3
+Laundromat.Position = UDim2.new(0.304831952, 0, 0.469848514, -1)
+Laundromat.Size = UDim2.new(0, 79, 0, 21)
+Laundromat.Font = Enum.Font.Highway
+Laundromat.Text = "Laundry"
+Laundromat.TextColor3 = Color3.fromRGB(83, 255, 146)
+Laundromat.TextSize = 15.000
+
+Gym.Name = "Gym"
+Gym.Parent = labels
+Gym.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Gym.BorderColor3 = Color3.fromRGB(22, 22, 22)
+Gym.BorderSizePixel = 3
+Gym.Position = UDim2.new(0.304831952, 0, 0.00484848395, 0)
+Gym.Size = UDim2.new(0, 79, 0, 21)
+Gym.Font = Enum.Font.Highway
+Gym.Text = "Gym"
+Gym.TextColor3 = Color3.fromRGB(83, 255, 146)
+Gym.TextSize = 15.000
+
+Gunshop1.Name = "Gun shop 1"
+Gunshop1.Parent = labels
+Gunshop1.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Gunshop1.BorderColor3 = Color3.fromRGB(22, 22, 22)
+Gunshop1.BorderSizePixel = 3
+Gunshop1.Position = UDim2.new(0.85154438, 0, 0.224848479, 0)
+Gunshop1.Size = UDim2.new(0, 79, 0, 21)
+Gunshop1.Font = Enum.Font.Highway
+Gunshop1.Text = "Gun Shop 2"
+Gunshop1.TextColor3 = Color3.fromRGB(88, 46, 255)
+Gunshop1.TextSize = 15.000
+
+GunShop.Name = "Gun Shop"
+GunShop.Parent = labels
+GunShop.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+GunShop.BorderColor3 = Color3.fromRGB(22, 22, 22)
+GunShop.BorderSizePixel = 3
+GunShop.Position = UDim2.new(0.851295769, 0, 0.0158484839, -2)
+GunShop.Size = UDim2.new(0, 79, 0, 21)
+GunShop.Font = Enum.Font.Highway
+GunShop.Text = "Gun Shop"
+GunShop.TextColor3 = Color3.fromRGB(88, 46, 255)
+GunShop.TextSize = 15.000
+
+FarLiquor.Name = "Far Liquor"
+FarLiquor.Parent = labels
+FarLiquor.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+FarLiquor.BorderColor3 = Color3.fromRGB(22, 22, 22)
+FarLiquor.BorderSizePixel = 3
+FarLiquor.Position = UDim2.new(0.576584756, 0, 0.00484848395, 0)
+FarLiquor.Size = UDim2.new(0, 33, 0, 21)
+FarLiquor.Font = Enum.Font.Highway
+FarLiquor.Text = "FL1"
+FarLiquor.TextColor3 = Color3.fromRGB(83, 255, 146)
+FarLiquor.TextSize = 15.000
+
+BigSlop.Name = "Big Slop"
+BigSlop.Parent = labels
+BigSlop.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+BigSlop.BorderColor3 = Color3.fromRGB(22, 22, 22)
+BigSlop.BorderSizePixel = 3
+BigSlop.Position = UDim2.new(0.576544404, 0, 0.469848514, -1)
+BigSlop.Size = UDim2.new(0, 33, 0, 21)
+BigSlop.Font = Enum.Font.Highway
+BigSlop.Text = "BS1"
+BigSlop.TextColor3 = Color3.fromRGB(83, 255, 146)
+BigSlop.TextSize = 15.000
+
+roses2.Name = "roses2"
+roses2.Parent = labels
+roses2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+roses2.BorderColor3 = Color3.fromRGB(22, 22, 22)
+roses2.BorderSizePixel = 3
+roses2.Position = UDim2.new(0.163964629, 0, 0.00484848022, 0)
+roses2.Size = UDim2.new(0, 33, 0, 21)
+roses2.Font = Enum.Font.Highway
+roses2.Text = "R2"
+roses2.TextColor3 = Color3.fromRGB(83, 255, 146)
+roses2.TextSize = 15.000
+
+roses3.Name = "roses3"
+roses3.Parent = labels
+roses3.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+roses3.BorderColor3 = Color3.fromRGB(22, 22, 22)
+roses3.BorderSizePixel = 3
+roses3.Position = UDim2.new(0.0299478564, 0, 0.269848466, -5)
+roses3.Size = UDim2.new(0, 33, 0, 21)
+roses3.Font = Enum.Font.Highway
+roses3.Text = "R3"
+roses3.TextColor3 = Color3.fromRGB(83, 255, 146)
+roses3.TextSize = 15.000
+
+roses4.Name = "roses4"
+roses4.Parent = labels
+roses4.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+roses4.BorderColor3 = Color3.fromRGB(22, 22, 22)
+roses4.BorderSizePixel = 3
+roses4.Position = UDim2.new(0.163964629, 0, 0.269848466, -5)
+roses4.Size = UDim2.new(0, 33, 0, 21)
+roses4.Font = Enum.Font.Highway
+roses4.Text = "R4"
+roses4.TextColor3 = Color3.fromRGB(83, 255, 146)
+roses4.TextSize = 15.000
+
+Liquor2.Name = "Liquor2"
+Liquor2.Parent = labels
+Liquor2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Liquor2.BorderColor3 = Color3.fromRGB(22, 22, 22)
+Liquor2.BorderSizePixel = 3
+Liquor2.Position = UDim2.new(0.437968045, 0, 0.269848466, -5)
+Liquor2.Size = UDim2.new(0, 33, 0, 21)
+Liquor2.Font = Enum.Font.Highway
+Liquor2.Text = "L2"
+Liquor2.TextColor3 = Color3.fromRGB(83, 255, 146)
+Liquor2.TextSize = 15.000
+
+vaultlick2.Name = "vault lick2"
+vaultlick2.Parent = labels
+vaultlick2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+vaultlick2.BorderColor3 = Color3.fromRGB(22, 22, 22)
+vaultlick2.BorderSizePixel = 3
+vaultlick2.Position = UDim2.new(0.440597653, 0, 0.932878792, -2)
+vaultlick2.Size = UDim2.new(0, 33, 0, 21)
+vaultlick2.Font = Enum.Font.Highway
+vaultlick2.Text = "VL2"
+vaultlick2.TextColor3 = Color3.fromRGB(83, 255, 146)
+vaultlick2.TextSize = 14.000
+
+cluck2.Name = "cluck2"
+cluck2.Parent = labels
+cluck2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+cluck2.BorderColor3 = Color3.fromRGB(22, 22, 22)
+cluck2.BorderSizePixel = 3
+cluck2.Position = UDim2.new(0.712597668, 0, -0.230303034, 0)
+cluck2.Size = UDim2.new(0, 33, 0, 21)
+cluck2.Font = Enum.Font.Highway
+cluck2.Text = "MC2"
+cluck2.TextColor3 = Color3.fromRGB(83, 255, 146)
+cluck2.TextSize = 15.000
+
+FarLiquor2.Name = "Far Liquor2"
+FarLiquor2.Parent = labels
+FarLiquor2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+FarLiquor2.BorderColor3 = Color3.fromRGB(22, 22, 22)
+FarLiquor2.BorderSizePixel = 3
+FarLiquor2.Position = UDim2.new(0.712502956, 0, 0.00484848395, 0)
+FarLiquor2.Size = UDim2.new(0, 33, 0, 21)
+FarLiquor2.Font = Enum.Font.Highway
+FarLiquor2.Text = "FL2"
+FarLiquor2.TextColor3 = Color3.fromRGB(83, 255, 146)
+FarLiquor2.TextSize = 15.000
+
+cementarysafe.Name = "cementary safe"
+cementarysafe.Parent = labels
+cementarysafe.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+cementarysafe.BorderColor3 = Color3.fromRGB(22, 22, 22)
+cementarysafe.BorderSizePixel = 3
+cementarysafe.Position = UDim2.new(0.574062705, 0, 0.269848466, -5)
+cementarysafe.Size = UDim2.new(0, 79, 0, 21)
+cementarysafe.Font = Enum.Font.Highway
+cementarysafe.Text = "Cem Safe"
+cementarysafe.TextColor3 = Color3.fromRGB(83, 255, 146)
+cementarysafe.TextSize = 15.000
+
+pg1.Name = "pg1"
+pg1.Parent = back
+pg1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+pg1.BackgroundTransparency = 1.000
+pg1.Position = UDim2.new(0.0212765951, 0, 0.138036802, 0)
+pg1.Size = UDim2.new(0, 353, 0, 86)
+
+tp2player3.Name = "tp2player3"
+tp2player3.Parent = pg1
+tp2player3.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+tp2player3.BorderColor3 = Color3.fromRGB(25, 25, 25)
+tp2player3.BorderSizePixel = 3
+tp2player3.Position = UDim2.new(-0.00966288894, 8, 0.822478294, -8)
+tp2player3.Size = UDim2.new(0, 83, 0, 23)
+tp2player3.Font = Enum.Font.SciFi
+tp2player3.Text = "TP2PLAYER"
+tp2player3.TextColor3 = Color3.fromRGB(88, 46, 255)
+tp2player3.TextSize = 14.000
+
+playerbox3.Name = "playerbox3"
+playerbox3.Parent = pg1
+playerbox3.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+playerbox3.BorderColor3 = Color3.fromRGB(25, 25, 25)
+playerbox3.BorderSizePixel = 3
+playerbox3.ClipsDescendants = true
+playerbox3.Position = UDim2.new(0.276429445, 0, 0.822478354, -8)
+playerbox3.Size = UDim2.new(0, 150, 0, 22)
+playerbox3.Font = Enum.Font.SourceSans
+playerbox3.PlaceholderColor3 = Color3.fromRGB(83, 255, 146)
+playerbox3.Text = ""
+playerbox3.TextColor3 = Color3.fromRGB(83, 255, 146)
+playerbox3.TextSize = 16.000
+playerbox3.TextStrokeColor3 = Color3.fromRGB(88, 46, 255)
+
+tp2player2.Name = "tp2player2"
+tp2player2.Parent = pg1
+tp2player2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+tp2player2.BorderColor3 = Color3.fromRGB(25, 25, 25)
+tp2player2.BorderSizePixel = 3
+tp2player2.Position = UDim2.new(-0.00992309675, 8, 0.370000005, 0)
+tp2player2.Size = UDim2.new(0, 83, 0, 23)
+tp2player2.Font = Enum.Font.SciFi
+tp2player2.Text = "TP2PLAYER"
+tp2player2.TextColor3 = Color3.fromRGB(88, 46, 255)
+tp2player2.TextSize = 14.000
+
+playerbox2.Name = "playerbox2"
+playerbox2.Parent = pg1
+playerbox2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+playerbox2.BorderColor3 = Color3.fromRGB(25, 25, 25)
+playerbox2.BorderSizePixel = 3
+playerbox2.ClipsDescendants = true
+playerbox2.Position = UDim2.new(0.276542693, 0, 0.369999915, 0)
+playerbox2.Size = UDim2.new(0, 150, 0, 22)
+playerbox2.Font = Enum.Font.SourceSans
+playerbox2.PlaceholderColor3 = Color3.fromRGB(83, 255, 146)
+playerbox2.Text = ""
+playerbox2.TextColor3 = Color3.fromRGB(83, 255, 146)
+playerbox2.TextSize = 16.000
+playerbox2.TextStrokeColor3 = Color3.fromRGB(88, 46, 255)
+
+loop.Name = "loop"
+loop.Parent = pg1
+loop.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+loop.BorderColor3 = Color3.fromRGB(25, 25, 25)
+loop.BorderSizePixel = 3
+loop.Position = UDim2.new(0.730000019, 0, -0.0250001065, 3)
+loop.Size = UDim2.new(0, 35, 0, 23)
+loop.Font = Enum.Font.SciFi
+loop.Text = "LOOP"
+loop.TextColor3 = Color3.fromRGB(88, 46, 255)
+loop.TextSize = 12.000
+
+playerbox.Name = "playerbox"
+playerbox.Parent = pg1
+playerbox.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+playerbox.BorderColor3 = Color3.fromRGB(25, 25, 25)
+playerbox.BorderSizePixel = 3
+playerbox.ClipsDescendants = true
+playerbox.Position = UDim2.new(0.276542693, 0, -0.0250001065, 3)
+playerbox.Size = UDim2.new(0, 150, 0, 22)
+playerbox.Font = Enum.Font.SourceSans
+playerbox.PlaceholderColor3 = Color3.fromRGB(83, 255, 146)
+playerbox.Text = ""
+playerbox.TextColor3 = Color3.fromRGB(83, 255, 146)
+playerbox.TextSize = 16.000
+playerbox.TextStrokeColor3 = Color3.fromRGB(88, 46, 255)
+
+tp2player.Name = "tp2player"
+tp2player.Parent = pg1
+tp2player.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+tp2player.BorderColor3 = Color3.fromRGB(25, 25, 25)
+tp2player.BorderSizePixel = 3
+tp2player.Position = UDim2.new(-0.00709023559, 8, -0.0250000004, 3)
+tp2player.Size = UDim2.new(0, 83, 0, 23)
+tp2player.Font = Enum.Font.SciFi
+tp2player.Text = "TP2PLAYER"
+tp2player.TextColor3 = Color3.fromRGB(88, 46, 255)
+tp2player.TextSize = 14.000
+
+twirl.Name = "twirl"
+twirl.Parent = pg1
+twirl.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+twirl.BorderColor3 = Color3.fromRGB(25, 25, 25)
+twirl.BorderSizePixel = 3
+twirl.Position = UDim2.new(0.870000005, -3, -0.0250000004, 3)
+twirl.Size = UDim2.new(0, 35, 0, 23)
+twirl.Font = Enum.Font.SciFi
+twirl.Text = "TWIRL"
+twirl.TextColor3 = Color3.fromRGB(88, 46, 255)
+twirl.TextSize = 12.000
+
+orbit.Name = "orbit"
+orbit.Parent = pg1
+orbit.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+orbit.BorderColor3 = Color3.fromRGB(25, 25, 25)
+orbit.BorderSizePixel = 3
+orbit.Position = UDim2.new(1.00999999, -7, -0.0250000004, 3)
+orbit.Size = UDim2.new(0, 35, 0, 23)
+orbit.Font = Enum.Font.SciFi
+orbit.Text = "ORB"
+orbit.TextColor3 = Color3.fromRGB(88, 46, 255)
+orbit.TextSize = 13.000
+
+orbit2.Name = "orbit2"
+orbit2.Parent = pg1
+orbit2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+orbit2.BorderColor3 = Color3.fromRGB(25, 25, 25)
+orbit2.BorderSizePixel = 3
+orbit2.Position = UDim2.new(1.00999999, -7, 0.370000005, 0)
+orbit2.Size = UDim2.new(0, 35, 0, 23)
+orbit2.Font = Enum.Font.SciFi
+orbit2.Text = "ORB"
+orbit2.TextColor3 = Color3.fromRGB(88, 46, 255)
+orbit2.TextSize = 13.000
+
+twirl2.Name = "twirl2"
+twirl2.Parent = pg1
+twirl2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+twirl2.BorderColor3 = Color3.fromRGB(25, 25, 25)
+twirl2.BorderSizePixel = 3
+twirl2.Position = UDim2.new(0.870000005, -3, 0.370000005, 0)
+twirl2.Size = UDim2.new(0, 35, 0, 23)
+twirl2.Font = Enum.Font.SciFi
+twirl2.Text = "TWIRL"
+twirl2.TextColor3 = Color3.fromRGB(88, 46, 255)
+twirl2.TextSize = 12.000
+
+loop2.Name = "loop2"
+loop2.Parent = pg1
+loop2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+loop2.BorderColor3 = Color3.fromRGB(25, 25, 25)
+loop2.BorderSizePixel = 3
+loop2.Position = UDim2.new(0.730000019, 0, 0.370000005, 0)
+loop2.Size = UDim2.new(0, 35, 0, 23)
+loop2.Font = Enum.Font.SciFi
+loop2.Text = "LOOP"
+loop2.TextColor3 = Color3.fromRGB(88, 46, 255)
+loop2.TextSize = 12.000
+
+loop3.Name = "loop3"
+loop3.Parent = pg1
+loop3.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+loop3.BorderColor3 = Color3.fromRGB(25, 25, 25)
+loop3.BorderSizePixel = 3
+loop3.Position = UDim2.new(0.730000019, 0, 0.822000027, -8)
+loop3.Size = UDim2.new(0, 35, 0, 23)
+loop3.Font = Enum.Font.SciFi
+loop3.Text = "LOOP"
+loop3.TextColor3 = Color3.fromRGB(88, 46, 255)
+loop3.TextSize = 12.000
+
+twirl3.Name = "twirl3"
+twirl3.Parent = pg1
+twirl3.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+twirl3.BorderColor3 = Color3.fromRGB(25, 25, 25)
+twirl3.BorderSizePixel = 3
+twirl3.Position = UDim2.new(0.870000005, -3, 0.822000027, -8)
+twirl3.Size = UDim2.new(0, 35, 0, 23)
+twirl3.Font = Enum.Font.SciFi
+twirl3.Text = "TWIRL"
+twirl3.TextColor3 = Color3.fromRGB(88, 46, 255)
+twirl3.TextSize = 12.000
+
+orbit3.Name = "orbit3"
+orbit3.Parent = pg1
+orbit3.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+orbit3.BorderColor3 = Color3.fromRGB(25, 25, 25)
+orbit3.BorderSizePixel = 3
+orbit3.Position = UDim2.new(1.00999999, -7, 0.822000027, -8)
+orbit3.Size = UDim2.new(0, 35, 0, 23)
+orbit3.Font = Enum.Font.SciFi
+orbit3.Text = "ORB"
+orbit3.TextColor3 = Color3.fromRGB(88, 46, 255)
+orbit3.TextSize = 13.000
+
+next.Name = "next"
+next.Parent = back
+next.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+next.BorderColor3 = Color3.fromRGB(22, 22, 22)
+next.BorderSizePixel = 3
+next.Position = UDim2.new(0.74298352, 0, 0.0670000091, -10)
+next.Size = UDim2.new(0, 90, 0, 23)
+next.Font = Enum.Font.SciFi
+next.Text = ">"
+next.TextColor3 = Color3.fromRGB(88, 46, 255)
+next.TextSize = 17.000
+
+pg2.Name = "pg2"
+pg2.Parent = back
+pg2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+pg2.BackgroundTransparency = 1.000
+pg2.Position = UDim2.new(0.0212765951, 0, 0.138036802, 0)
+pg2.Size = UDim2.new(0, 353, 0, 86)
+pg2.Visible = false
+
+tp2player6.Name = "tp2player6"
+tp2player6.Parent = pg2
+tp2player6.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+tp2player6.BorderColor3 = Color3.fromRGB(25, 25, 25)
+tp2player6.BorderSizePixel = 3
+tp2player6.Position = UDim2.new(-0.00966288894, 8, 0.822478294, -8)
+tp2player6.Size = UDim2.new(0, 83, 0, 23)
+tp2player6.Font = Enum.Font.SciFi
+tp2player6.Text = "TP2PLAYER"
+tp2player6.TextColor3 = Color3.fromRGB(88, 46, 255)
+tp2player6.TextSize = 14.000
+
+playerbox6.Name = "playerbox6"
+playerbox6.Parent = pg2
+playerbox6.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+playerbox6.BorderColor3 = Color3.fromRGB(25, 25, 25)
+playerbox6.BorderSizePixel = 3
+playerbox6.Position = UDim2.new(0.275999993, 0, 0.822000027, -8)
+playerbox6.Size = UDim2.new(0, 150, 0, 22)
+playerbox6.Font = Enum.Font.SourceSans
+playerbox6.PlaceholderColor3 = Color3.fromRGB(83, 255, 146)
+playerbox6.Text = ""
+playerbox6.TextColor3 = Color3.fromRGB(83, 255, 146)
+playerbox6.TextSize = 16.000
+playerbox6.TextStrokeColor3 = Color3.fromRGB(88, 46, 255)
+
+tp2player5.Name = "tp2player5"
+tp2player5.Parent = pg2
+tp2player5.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+tp2player5.BorderColor3 = Color3.fromRGB(25, 25, 25)
+tp2player5.BorderSizePixel = 3
+tp2player5.Position = UDim2.new(-0.00992309675, 8, 0.370000005, 0)
+tp2player5.Size = UDim2.new(0, 83, 0, 23)
+tp2player5.Font = Enum.Font.SciFi
+tp2player5.Text = "TP2PLAYER"
+tp2player5.TextColor3 = Color3.fromRGB(88, 46, 255)
+tp2player5.TextSize = 14.000
+
+playerbox5.Name = "playerbox5"
+playerbox5.Parent = pg2
+playerbox5.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+playerbox5.BorderColor3 = Color3.fromRGB(25, 25, 25)
+playerbox5.BorderSizePixel = 3
+playerbox5.Position = UDim2.new(0.275999993, 0, 0.370000005, 0)
+playerbox5.Size = UDim2.new(0, 150, 0, 22)
+playerbox5.Font = Enum.Font.SourceSans
+playerbox5.PlaceholderColor3 = Color3.fromRGB(83, 255, 146)
+playerbox5.Text = ""
+playerbox5.TextColor3 = Color3.fromRGB(83, 255, 146)
+playerbox5.TextSize = 16.000
+playerbox5.TextStrokeColor3 = Color3.fromRGB(88, 46, 255)
+
+playerbox4.Name = "playerbox4"
+playerbox4.Parent = pg2
+playerbox4.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+playerbox4.BorderColor3 = Color3.fromRGB(25, 25, 25)
+playerbox4.BorderSizePixel = 3
+playerbox4.Position = UDim2.new(0.27700001, 0, -0.0250000004, 3)
+playerbox4.Size = UDim2.new(0, 150, 0, 22)
+playerbox4.Font = Enum.Font.SourceSans
+playerbox4.PlaceholderColor3 = Color3.fromRGB(83, 255, 146)
+playerbox4.Text = ""
+playerbox4.TextColor3 = Color3.fromRGB(83, 255, 146)
+playerbox4.TextSize = 16.000
+playerbox4.TextStrokeColor3 = Color3.fromRGB(88, 46, 255)
+
+tp2player4.Name = "tp2player4"
+tp2player4.Parent = pg2
+tp2player4.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+tp2player4.BorderColor3 = Color3.fromRGB(25, 25, 25)
+tp2player4.BorderSizePixel = 3
+tp2player4.Position = UDim2.new(-0.00709023559, 8, -0.0250000004, 3)
+tp2player4.Size = UDim2.new(0, 83, 0, 23)
+tp2player4.Font = Enum.Font.SciFi
+tp2player4.Text = "TP2PLAYER"
+tp2player4.TextColor3 = Color3.fromRGB(88, 46, 255)
+tp2player4.TextSize = 14.000
+
+loop4.Name = "loop4"
+loop4.Parent = pg2
+loop4.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+loop4.BorderColor3 = Color3.fromRGB(25, 25, 25)
+loop4.BorderSizePixel = 3
+loop4.Position = UDim2.new(0.730000019, 0, -0.0250001065, 3)
+loop4.Size = UDim2.new(0, 35, 0, 23)
+loop4.Font = Enum.Font.SciFi
+loop4.Text = "LOOP"
+loop4.TextColor3 = Color3.fromRGB(88, 46, 255)
+loop4.TextSize = 12.000
+
+twirl4.Name = "twirl4"
+twirl4.Parent = pg2
+twirl4.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+twirl4.BorderColor3 = Color3.fromRGB(25, 25, 25)
+twirl4.BorderSizePixel = 3
+twirl4.Position = UDim2.new(0.870000005, -3, -0.0250000004, 3)
+twirl4.Size = UDim2.new(0, 35, 0, 23)
+twirl4.Font = Enum.Font.SciFi
+twirl4.Text = "TWIRL"
+twirl4.TextColor3 = Color3.fromRGB(88, 46, 255)
+twirl4.TextSize = 12.000
+
+orbit4.Name = "orbit4"
+orbit4.Parent = pg2
+orbit4.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+orbit4.BorderColor3 = Color3.fromRGB(25, 25, 25)
+orbit4.BorderSizePixel = 3
+orbit4.Position = UDim2.new(1.00999999, -7, -0.0250000004, 3)
+orbit4.Size = UDim2.new(0, 35, 0, 23)
+orbit4.Font = Enum.Font.SciFi
+orbit4.Text = "ORB"
+orbit4.TextColor3 = Color3.fromRGB(88, 46, 255)
+orbit4.TextSize = 13.000
+
+loop5.Name = "loop5"
+loop5.Parent = pg2
+loop5.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+loop5.BorderColor3 = Color3.fromRGB(25, 25, 25)
+loop5.BorderSizePixel = 3
+loop5.Position = UDim2.new(0.730000019, 0, 0.370000005, 0)
+loop5.Size = UDim2.new(0, 35, 0, 23)
+loop5.Font = Enum.Font.SciFi
+loop5.Text = "LOOP"
+loop5.TextColor3 = Color3.fromRGB(88, 46, 255)
+loop5.TextSize = 12.000
+
+twirl5.Name = "twirl5"
+twirl5.Parent = pg2
+twirl5.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+twirl5.BorderColor3 = Color3.fromRGB(25, 25, 25)
+twirl5.BorderSizePixel = 3
+twirl5.Position = UDim2.new(0.870000005, -3, 0.370000005, 0)
+twirl5.Size = UDim2.new(0, 35, 0, 23)
+twirl5.Font = Enum.Font.SciFi
+twirl5.Text = "TWIRL"
+twirl5.TextColor3 = Color3.fromRGB(88, 46, 255)
+twirl5.TextSize = 12.000
+
+orbit5.Name = "orbit5"
+orbit5.Parent = pg2
+orbit5.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+orbit5.BorderColor3 = Color3.fromRGB(25, 25, 25)
+orbit5.BorderSizePixel = 3
+orbit5.Position = UDim2.new(1.00999999, -7, 0.370000005, 0)
+orbit5.Size = UDim2.new(0, 35, 0, 23)
+orbit5.Font = Enum.Font.SciFi
+orbit5.Text = "ORB"
+orbit5.TextColor3 = Color3.fromRGB(88, 46, 255)
+orbit5.TextSize = 13.000
+
+loop6.Name = "loop6"
+loop6.Parent = pg2
+loop6.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+loop6.BorderColor3 = Color3.fromRGB(25, 25, 25)
+loop6.BorderSizePixel = 3
+loop6.Position = UDim2.new(0.730000019, 0, 0.822000027, -8)
+loop6.Size = UDim2.new(0, 35, 0, 23)
+loop6.Font = Enum.Font.SciFi
+loop6.Text = "LOOP"
+loop6.TextColor3 = Color3.fromRGB(88, 46, 255)
+loop6.TextSize = 12.000
+
+twirl6.Name = "twirl6"
+twirl6.Parent = pg2
+twirl6.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+twirl6.BorderColor3 = Color3.fromRGB(25, 25, 25)
+twirl6.BorderSizePixel = 3
+twirl6.Position = UDim2.new(0.870000005, -3, 0.822000027, -8)
+twirl6.Size = UDim2.new(0, 35, 0, 23)
+twirl6.Font = Enum.Font.SciFi
+twirl6.Text = "TWIRL"
+twirl6.TextColor3 = Color3.fromRGB(88, 46, 255)
+twirl6.TextSize = 12.000
+
+orbit6.Name = "orbit6"
+orbit6.Parent = pg2
+orbit6.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+orbit6.BorderColor3 = Color3.fromRGB(25, 25, 25)
+orbit6.BorderSizePixel = 3
+orbit6.Position = UDim2.new(1.00999999, -7, 0.822000027, -8)
+orbit6.Size = UDim2.new(0, 35, 0, 23)
+orbit6.Font = Enum.Font.SciFi
+orbit6.Text = "ORB"
+orbit6.TextColor3 = Color3.fromRGB(88, 46, 255)
+orbit6.TextSize = 13.000
+
+next2.Name = "next2"
+next2.Parent = back
+next2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+next2.BorderColor3 = Color3.fromRGB(22, 22, 22)
+next2.BorderSizePixel = 3
+next2.Position = UDim2.new(0.742999971, 0, 0.0670000017, -10)
+next2.Size = UDim2.new(0, 90, 0, 23)
+next2.Visible = false
+next2.Font = Enum.Font.SciFi
+next2.Text = ">"
+next2.TextColor3 = Color3.fromRGB(88, 46, 255)
+next2.TextSize = 17.000
+
+_1.Name = "1"
+_1.Parent = back
+_1.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+_1.BorderColor3 = Color3.fromRGB(22, 22, 22)
+_1.BorderSizePixel = 3
+_1.Position = UDim2.new(0.25999999, 0, 0.0670000091, -10)
+_1.Size = UDim2.new(0, 29, 0, 23)
+_1.Font = Enum.Font.SciFi
+_1.Text = "1"
+_1.TextColor3 = Color3.fromRGB(255, 174, 34)
+_1.TextSize = 17.000
+
+_2.Name = "2"
+_2.Parent = back
+_2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+_2.BorderColor3 = Color3.fromRGB(22, 22, 22)
+_2.BorderSizePixel = 3
+_2.Position = UDim2.new(0.649999976, 0, 0.0670000091, -10)
+_2.Size = UDim2.new(0, 29, 0, 23)
+_2.Font = Enum.Font.SciFi
+_2.Text = "2"
+_2.TextColor3 = Color3.fromRGB(88, 46, 255)
+_2.TextSize = 17.000
+
+tppbutton.Name = "tppbutton"
+tppbutton.Parent = back
+tppbutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tppbutton.BorderColor3 = Color3.fromRGB(22, 22, 22)
+tppbutton.BorderSizePixel = 4
+tppbutton.Position = UDim2.new(-0.0700000003, 0, 0.449999988, 0)
+tppbutton.Size = UDim2.new(0, 22, 0, 50)
+tppbutton.Image = "http://www.roblox.com/asset/?id=4598404877"
+tppbutton.ImageColor3 = Color3.fromRGB(255, 174, 34)
+
+tplabel.Name = "tplabel"
+tplabel.Parent = tppbutton
+tplabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tplabel.BackgroundTransparency = 1.000
+tplabel.Position = UDim2.new(-0.727272749, 0, 0.183462217, 0)
+tplabel.Rotation = -90.000
+tplabel.Size = UDim2.new(0, 53, 0, 30)
+tplabel.Font = Enum.Font.SciFi
+tplabel.Text = "TELE"
+tplabel.TextColor3 = Color3.fromRGB(22, 22, 22)
+tplabel.TextSize = 20.000
+
+hkdbutton.Name = "hkdbutton"
+hkdbutton.Parent = back
+hkdbutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hkdbutton.BorderColor3 = Color3.fromRGB(22, 22, 22)
+hkdbutton.BorderSizePixel = 4
+hkdbutton.Position = UDim2.new(-0.0700000003, 0, 0.230000004, 0)
+hkdbutton.Size = UDim2.new(0, 22, 0, 50)
+hkdbutton.Image = "http://www.roblox.com/asset/?id=4598404877"
+hkdbutton.ImageColor3 = Color3.fromRGB(255, 174, 34)
+
+hotkeylabel.Name = "hotkeylabel"
+hotkeylabel.Parent = hkdbutton
+hotkeylabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hotkeylabel.BackgroundTransparency = 1.000
+hotkeylabel.Position = UDim2.new(-0.720000029, 0, 0.183462217, 0)
+hotkeylabel.Rotation = -90.000
+hotkeylabel.Size = UDim2.new(0, 53, 0, 30)
+hotkeylabel.Font = Enum.Font.SciFi
+hotkeylabel.Text = "HKEY"
+hotkeylabel.TextColor3 = Color3.fromRGB(22, 22, 22)
+hotkeylabel.TextSize = 20.000
+
+hkPage.Name = "hkPage"
+hkPage.Parent = back
+hkPage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hkPage.BackgroundTransparency = 1.000
+hkPage.Position = UDim2.new(0.0592592582, 0, 0.4294478, 0)
+hkPage.Size = UDim2.new(0, 366, 0, 174)
+hkPage.Visible = false
+
+SHHK.Name = "SHHK"
+SHHK.Parent = hkPage
+SHHK.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+SHHK.BorderColor3 = Color3.fromRGB(25, 25, 25)
+SHHK.BorderSizePixel = 3
+SHHK.ClipsDescendants = true
+SHHK.Position = UDim2.new(0.224464461, 0, 0.0287356321, 45)
+SHHK.Size = UDim2.new(0, 88, 0, 21)
+SHHK.Font = Enum.Font.SourceSans
+SHHK.PlaceholderColor3 = Color3.fromRGB(83, 255, 146)
+SHHK.Text = ""
+SHHK.TextColor3 = Color3.fromRGB(83, 255, 146)
+SHHK.TextSize = 15.000
+
+SHButton.Name = "SH Button"
+SHButton.Parent = hkPage
+SHButton.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+SHButton.BorderColor3 = Color3.fromRGB(22, 22, 22)
+SHButton.BorderSizePixel = 3
+SHButton.Position = UDim2.new(0.0236612018, 0, 0.0418850258, 0)
+SHButton.Size = UDim2.new(0, 139, 0, 31)
+SHButton.Font = Enum.Font.SciFi
+SHButton.Text = "SPEED HACK"
+SHButton.TextColor3 = Color3.fromRGB(88, 46, 255)
+SHButton.TextSize = 16.000
+
+speedNum.Name = "speedNum"
+speedNum.Parent = hkPage
+speedNum.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+speedNum.BorderColor3 = Color3.fromRGB(25, 25, 25)
+speedNum.BorderSizePixel = 3
+speedNum.ClipsDescendants = true
+speedNum.Position = UDim2.new(0.224464476, 0, -0.017791748, 83)
+speedNum.Size = UDim2.new(0, 88, 0, 21)
+speedNum.Font = Enum.Font.SourceSans
+speedNum.PlaceholderColor3 = Color3.fromRGB(83, 255, 146)
+speedNum.Text = ""
+speedNum.TextColor3 = Color3.fromRGB(83, 255, 146)
+speedNum.TextSize = 16.000
+
+hkLabel.Name = "hkLabel"
+hkLabel.Parent = hkPage
+hkLabel.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+hkLabel.BorderColor3 = Color3.fromRGB(22, 22, 22)
+hkLabel.BorderSizePixel = 3
+hkLabel.Position = UDim2.new(-0.0275355186, 0, 0.0287356339, 45)
+hkLabel.Size = UDim2.new(0, 81, 0, 21)
+hkLabel.Font = Enum.Font.SciFi
+hkLabel.Text = "HOTKEY"
+hkLabel.TextColor3 = Color3.fromRGB(88, 46, 255)
+hkLabel.TextSize = 15.000
+hkLabel.TextWrapped = true
+
+speedLabel.Name = "speedLabel"
+speedLabel.Parent = hkPage
+speedLabel.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+speedLabel.BorderColor3 = Color3.fromRGB(22, 22, 22)
+speedLabel.BorderSizePixel = 3
+speedLabel.Position = UDim2.new(-0.0275355186, 0, -0.017791748, 83)
+speedLabel.Size = UDim2.new(0, 81, 0, 21)
+speedLabel.Font = Enum.Font.SciFi
+speedLabel.Text = "SPEED"
+speedLabel.TextColor3 = Color3.fromRGB(88, 46, 255)
+speedLabel.TextSize = 16.000
+
+ldhk.Name = "ldhk"
+ldhk.Parent = hkPage
+ldhk.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+ldhk.BorderColor3 = Color3.fromRGB(25, 25, 25)
+ldhk.BorderSizePixel = 3
+ldhk.Position = UDim2.new(0.730000019, 0, 0.0170000456, 0)
+ldhk.Size = UDim2.new(0, 100, 0, 22)
+ldhk.Font = Enum.Font.SourceSans
+ldhk.PlaceholderColor3 = Color3.fromRGB(83, 255, 146)
+ldhk.Text = ""
+ldhk.TextColor3 = Color3.fromRGB(83, 255, 146)
+ldhk.TextSize = 16.000
+ldhk.TextStrokeColor3 = Color3.fromRGB(88, 46, 255)
+
+LDash.Name = "LDash"
+LDash.Parent = hkPage
+LDash.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+LDash.BorderColor3 = Color3.fromRGB(22, 22, 22)
+LDash.BorderSizePixel = 3
+LDash.Position = UDim2.new(0.505987048, 0, 0.0172413588, 0)
+LDash.Size = UDim2.new(0, 72, 0, 23)
+LDash.Font = Enum.Font.SciFi
+LDash.Text = "Left Dash"
+LDash.TextColor3 = Color3.fromRGB(88, 46, 255)
+LDash.TextSize = 13.000
+
+RDash.Name = "RDash"
+RDash.Parent = hkPage
+RDash.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+RDash.BorderColor3 = Color3.fromRGB(22, 22, 22)
+RDash.BorderSizePixel = 3
+RDash.Position = UDim2.new(0.505999982, 0, 0.200000003, 0)
+RDash.Size = UDim2.new(0, 72, 0, 23)
+RDash.Font = Enum.Font.SciFi
+RDash.Text = "Right Dash"
+RDash.TextColor3 = Color3.fromRGB(88, 46, 255)
+RDash.TextSize = 13.000
+
+rdhk.Name = "rdhk"
+rdhk.Parent = hkPage
+rdhk.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+rdhk.BorderColor3 = Color3.fromRGB(25, 25, 25)
+rdhk.BorderSizePixel = 3
+rdhk.Position = UDim2.new(0.730420351, 0, 0.200171471, 0)
+rdhk.Size = UDim2.new(0, 100, 0, 22)
+rdhk.Font = Enum.Font.SourceSans
+rdhk.PlaceholderColor3 = Color3.fromRGB(83, 255, 146)
+rdhk.Text = ""
+rdhk.TextColor3 = Color3.fromRGB(83, 255, 146)
+rdhk.TextSize = 16.000
+rdhk.TextStrokeColor3 = Color3.fromRGB(88, 46, 255)
+
+BDash.Name = "BDash"
+BDash.Parent = hkPage
+BDash.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+BDash.BorderColor3 = Color3.fromRGB(22, 22, 22)
+BDash.BorderSizePixel = 3
+BDash.Position = UDim2.new(0.505999982, 0, 0.389999986, 0)
+BDash.Size = UDim2.new(0, 72, 0, 23)
+BDash.Font = Enum.Font.SciFi
+BDash.Text = "Back Dash"
+BDash.TextColor3 = Color3.fromRGB(88, 46, 255)
+BDash.TextSize = 13.000
+
+bdhk.Name = "bdhk"
+bdhk.Parent = hkPage
+bdhk.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+bdhk.BorderColor3 = Color3.fromRGB(25, 25, 25)
+bdhk.BorderSizePixel = 3
+bdhk.Position = UDim2.new(0.730000019, 0, 0.389999986, 0)
+bdhk.Size = UDim2.new(0, 100, 0, 22)
+bdhk.Font = Enum.Font.SourceSans
+bdhk.PlaceholderColor3 = Color3.fromRGB(83, 255, 146)
+bdhk.Text = ""
+bdhk.TextColor3 = Color3.fromRGB(83, 255, 146)
+bdhk.TextSize = 16.000
+bdhk.TextStrokeColor3 = Color3.fromRGB(88, 46, 255)
+
+fdhk.Name = "fdhk"
+fdhk.Parent = hkPage
+fdhk.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+fdhk.BorderColor3 = Color3.fromRGB(25, 25, 25)
+fdhk.BorderSizePixel = 3
+fdhk.Position = UDim2.new(0.730000019, 0, 0.580459774, 0)
+fdhk.Size = UDim2.new(0, 100, 0, 22)
+fdhk.Font = Enum.Font.SourceSans
+fdhk.PlaceholderColor3 = Color3.fromRGB(83, 255, 146)
+fdhk.Text = ""
+fdhk.TextColor3 = Color3.fromRGB(83, 255, 146)
+fdhk.TextSize = 16.000
+fdhk.TextStrokeColor3 = Color3.fromRGB(88, 46, 255)
+
+FDash.Name = "FDash"
+FDash.Parent = hkPage
+FDash.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+FDash.BorderColor3 = Color3.fromRGB(22, 22, 22)
+FDash.BorderSizePixel = 3
+FDash.Position = UDim2.new(0.505999982, 0, 0.579999983, 0)
+FDash.Size = UDim2.new(0, 72, 0, 23)
+FDash.Font = Enum.Font.SciFi
+FDash.Text = "Front Dash"
+FDash.TextColor3 = Color3.fromRGB(88, 46, 255)
+FDash.TextSize = 13.000
+FDash.TextWrapped = true
+
+p1label.Name = "p1label"
+p1label.Parent = hkPage
+p1label.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+p1label.BorderColor3 = Color3.fromRGB(22, 22, 22)
+p1label.BorderSizePixel = 3
+p1label.Position = UDim2.new(0.134191632, 0, 0.646080434, 0)
+p1label.Size = UDim2.new(0, 27, 0, 24)
+p1label.Font = Enum.Font.SciFi
+p1label.Text = "TP1"
+p1label.TextColor3 = Color3.fromRGB(88, 46, 255)
+p1label.TextSize = 15.000
+
+p1hk.Name = "p1hk"
+p1hk.Parent = hkPage
+p1hk.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+p1hk.BorderColor3 = Color3.fromRGB(25, 25, 25)
+p1hk.BorderSizePixel = 3
+p1hk.Position = UDim2.new(0.229074284, 0, 0.646080494, 0)
+p1hk.Size = UDim2.new(0, 46, 0, 24)
+p1hk.Font = Enum.Font.SourceSans
+p1hk.PlaceholderColor3 = Color3.fromRGB(83, 255, 146)
+p1hk.Text = ""
+p1hk.TextColor3 = Color3.fromRGB(83, 255, 146)
+p1hk.TextSize = 16.000
+p1hk.TextStrokeColor3 = Color3.fromRGB(88, 46, 255)
+
+p2label.Name = "p2label"
+p2label.Parent = hkPage
+p2label.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+p2label.BorderColor3 = Color3.fromRGB(22, 22, 22)
+p2label.BorderSizePixel = 3
+p2label.Position = UDim2.new(-0.0192550868, 0, 0.847229838, 0)
+p2label.Size = UDim2.new(0, 27, 0, 24)
+p2label.Font = Enum.Font.SciFi
+p2label.Text = "TP2"
+p2label.TextColor3 = Color3.fromRGB(88, 46, 255)
+p2label.TextSize = 15.000
+
+p2hk.Name = "p2hk"
+p2hk.Parent = hkPage
+p2hk.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+p2hk.BorderColor3 = Color3.fromRGB(25, 25, 25)
+p2hk.BorderSizePixel = 3
+p2hk.Position = UDim2.new(0.0768305808, 0, 0.847229898, 0)
+p2hk.Size = UDim2.new(0, 46, 0, 24)
+p2hk.Font = Enum.Font.SourceSans
+p2hk.PlaceholderColor3 = Color3.fromRGB(83, 255, 146)
+p2hk.Text = ""
+p2hk.TextColor3 = Color3.fromRGB(83, 255, 146)
+p2hk.TextSize = 16.000
+p2hk.TextStrokeColor3 = Color3.fromRGB(88, 46, 255)
+
+p3label.Name = "p3label"
+p3label.Parent = hkPage
+p3label.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+p3label.BorderColor3 = Color3.fromRGB(22, 22, 22)
+p3label.BorderSizePixel = 3
+p3label.Position = UDim2.new(0.243027315, 0, 0.877011418, -6)
+p3label.Size = UDim2.new(0, 27, 0, 24)
+p3label.Font = Enum.Font.SciFi
+p3label.Text = "TP3"
+p3label.TextColor3 = Color3.fromRGB(88, 46, 255)
+p3label.TextSize = 15.000
+
+p3hk.Name = "p3hk"
+p3hk.Parent = hkPage
+p3hk.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+p3hk.BorderColor3 = Color3.fromRGB(25, 25, 25)
+p3hk.BorderSizePixel = 3
+p3hk.Position = UDim2.new(0.338027328, 0, 0.877011418, -6)
+p3hk.Size = UDim2.new(0, 46, 0, 24)
+p3hk.Font = Enum.Font.SourceSans
+p3hk.PlaceholderColor3 = Color3.fromRGB(83, 255, 146)
+p3hk.Text = ""
+p3hk.TextColor3 = Color3.fromRGB(83, 255, 146)
+p3hk.TextSize = 16.000
+p3hk.TextStrokeColor3 = Color3.fromRGB(88, 46, 255)
+
+MethodButton.Name = "Method Button"
+MethodButton.Parent = hkPage
+MethodButton.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+MethodButton.BorderColor3 = Color3.fromRGB(22, 22, 22)
+MethodButton.BorderSizePixel = 3
+MethodButton.Position = UDim2.new(0.62283951, 0, 0.864408851, -10)
+MethodButton.Size = UDim2.new(0, 94, 0, 36)
+MethodButton.Font = Enum.Font.SciFi
+MethodButton.Text = "Tween"
+MethodButton.TextColor3 = Color3.fromRGB(88, 46, 255)
+MethodButton.TextSize = 18.000
+
+stoptweenbutton.Name = "stoptweenbutton"
+stoptweenbutton.Parent = back
+stoptweenbutton.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+stoptweenbutton.BorderColor3 = Color3.fromRGB(22, 22, 22)
+stoptweenbutton.BorderSizePixel = 3
+stoptweenbutton.Position = UDim2.new(0.360000014, 0, 0.0670000091, -10)
+stoptweenbutton.Size = UDim2.new(0, 105, 0, 23)
+stoptweenbutton.Font = Enum.Font.SciFi
+stoptweenbutton.Text = "StopTween"
+stoptweenbutton.TextColor3 = Color3.fromRGB(88, 46, 255)
+stoptweenbutton.TextSize = 17.000
+
+open.Name = "open"
+open.Parent = bar
+open.BackgroundColor3 = Color3.fromRGB(181, 6, 255)
+open.Position = UDim2.new(0.747202992, 0, 0.263284415, 0)
+open.Size = UDim2.new(0, 10, 0, 11)
+open.Font = Enum.Font.SourceSans
+open.Text = ""
+open.TextColor3 = Color3.fromRGB(0, 0, 0)
+open.TextSize = 14.000
+
+close.Name = "close"
+close.Parent = bar
+close.BackgroundColor3 = Color3.fromRGB(83, 255, 146)
+close.Position = UDim2.new(0.885006189, 0, 0.263284355, 0)
+close.Size = UDim2.new(0, 11, 0, 11)
+close.Font = Enum.Font.SourceSans
+close.Text = ""
+close.TextColor3 = Color3.fromRGB(0, 0, 0)
+close.TextSize = 14.000
+
+-- Scripts:
+
+local function PIBF_fake_script() -- fixbutton.LocalScript 
+	local script = Instance.new('LocalScript', fixbutton)
+
+	function leftclick()
+	local var = game.Players.LocalPlayer.PlayerGui.LocalScript
+	var.Parent = game:GetService("SoundService")
+	wait(0.1)
+	var = game:GetService("SoundService").LocalScript
+	var.Parent = game:GetService("Players").LocalPlayer["PlayerGui"]
+	end
+	
+	script.Parent.MouseButton1Click:Connect(leftclick)
+end
+coroutine.wrap(PIBF_fake_script)()
+local function HUAA_fake_script() -- vaultlick.LocalScript 
+	local script = Instance.new('LocalScript', vaultlick)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(265.5, 37.004, 300.6)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(265.5, 37.004, 300.6)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(HUAA_fake_script)()
+local function UXENW_fake_script() -- vaultlick.lickofvault 
+	local script = Instance.new('LocalScript', vaultlick)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(264.47, 37.004, 304.08) or v.Position == Vector3.new(264.389557, 37,0040016, 296.850281) or v.Position == Vector3.new(264.469574, 37.0040169, 304.080139) then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	    end
+	
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("Part") then
+			if v.Position == Vector3.new(264.47, 37.004, 304.08) or v.Position == Vector3.new(264.389557, 37,0040016, 296.850281) or v.Position == Vector3.new(264.469574, 37.0040169, 304.080139) then
+				v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+					if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)			
+			end
+		end
+	end
+	
+	
+end
+coroutine.wrap(UXENW_fake_script)()
+local function PUTGTGR_fake_script() -- subway.LocalScript 
+	local script = Instance.new('LocalScript', subway)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(-116, 36.427, 577.151)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(-116, 36.427, 577.151)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(PUTGTGR_fake_script)()
+local function LTHX_fake_script() -- subway.wayofsub 
+	local script = Instance.new('LocalScript', subway)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(-117.606079, 36.4270325, 577.151062) or v.Position == Vector3.new(-117.606079, 36.4270325, 577.151062, 0, 0, 1, 0, 1, -0, -1, 0, 0) or v.Position == Vector3.new(-117.606, 36.427, 577.151) then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	    end
+	
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("Part") then
+			if v.Position == Vector3.new(-117.606079, 36.4270325, 577.151062) or v.Position == Vector3.new(-117.606079, 36.4270325, 577.151062, 0, 0, 1, 0, 1, -0, -1, 0, 0) or v.Position == Vector3.new(-117.606, 36.427, 577.151) then
+				v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+					if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)			
+			end
+		end
+	end
+	
+	
+end
+coroutine.wrap(LTHX_fake_script)()
+local function XHAB_fake_script() -- roses.LocalScript 
+	local script = Instance.new('LocalScript', roses)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(-120, 36.827, 488.54)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(-120, 36.827, 488.54)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(XHAB_fake_script)()
+local function NZYIAU_fake_script() -- roses.rse 
+	local script = Instance.new('LocalScript', roses)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(-118.523605, 36.8270378, 477.500061) or v.Position == Vector3.new(-118.523605, 36.8270378, 488.540375)  then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	    end
+	
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("Part") then
+			if v.Position == Vector3.new(-118.523605, 36.8270378, 477.500061) or v.Position == Vector3.new(-118.523605, 36.8270378, 488.540375)  then
+				v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+					if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)			
+			end
+		end
+	end
+	
+	
+end
+coroutine.wrap(NZYIAU_fake_script)()
+local function RZCTW_fake_script() -- Beluga.LocalScript 
+	local script = Instance.new('LocalScript', Beluga)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+	
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(285, 35.6, -20)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(285, 35.6, -20)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+		
+	end)
+	
+end
+coroutine.wrap(RZCTW_fake_script)()
+local function OPWSPWU_fake_script() -- luxuryapartments.LocalScript 
+	local script = Instance.new('LocalScript', luxuryapartments)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(14, 39, 684)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(14, 39, 684)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+				for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(OPWSPWU_fake_script)()
+local function FNDJ_fake_script() -- farsafe.LocalScript 
+	local script = Instance.new('LocalScript', farsafe)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(-535, 32.7679, 577.707)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(-535, 32.7679, 577.707)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(FNDJ_fake_script)()
+local function WBID_fake_script() -- farsafe.ofsafefar 
+	local script = Instance.new('LocalScript', farsafe)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(-553.447449, 32.7678795, 577.706787) or v.Position == Vector3.new(-533.447, 32.7679, 577.707) or v.Position == Vector3.new(-533.447, 32.7679, 577.707) or v.Position == Vector3.new(-533.447449, 32.7678795, 577.706787) then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	    end
+	
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("Part") then
+			if v.Position == Vector3.new(-553.447449, 32.7678795, 577.706787) or v.Position == Vector3.new(-533.447, 32.7679, 577.707) or v.Position == Vector3.new(-533.447, 32.7679, 577.707) or v.Position == Vector3.new(-533.447449, 32.7678795, 577.706787) then
+				v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+					if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)			
+			end
+		end
+	end
+	
+	
+end
+coroutine.wrap(WBID_fake_script)()
+local function UWDVX_fake_script() -- cluck.LocalScript 
+	local script = Instance.new('LocalScript', cluck)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(-103, 36.784, 36.7)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(-103, 36.784, 36.7)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(UWDVX_fake_script)()
+local function AGDXO_fake_script() -- cluck.luck 
+	local script = Instance.new('LocalScript', cluck)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(-102.3, 36.784, 41.1591) or v.Position == Vector3.new(-102.300095, 36.7840462, 41.1591377) then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	    end
+	
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("Part") then
+			if v.Position == Vector3.new(-102.3, 36.784, 41.1591) or v.Position == Vector3.new(-102.300095, 36.7840462, 41.1591377) then
+				v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+					if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)			
+			end
+		end
+	end
+	
+	
+end
+coroutine.wrap(AGDXO_fake_script)()
+local function ELVCUXE_fake_script() -- BigSlop2.LocalScript 
+	local script = Instance.new('LocalScript', BigSlop2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(-841, 37.004, -82.5)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(-841, 37.004, -82.5)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+				for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+			
+	end)
+	
+end
+coroutine.wrap(ELVCUXE_fake_script)()
+local function OMOJCX_fake_script() -- BigSlop2.slopofbig2 
+	local script = Instance.new('LocalScript', BigSlop2)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(-844.764, 37.004, -81.8049) or v.Position == Vector3.new(-844.763977, 37.0040016, -81.8049011) or v.Position == Vector3.new(-844.763977, 37,0040169, -81.8048553) or v.Position == Vector3.new(-844.763977, 37.0040169, -81.8048553) then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	end
+	
+	for i,v in pairs(game.Workspace.Shops:GetDescendants()) do
+		if v:IsA("Part") and v.Name == "Cash" then
+			if v.Position == Vector3.new(-844.764, 37.004, -81.8049) or v.Position == Vector3.new(-844.763977, 37.0040016, -81.8049011) or v.Position == Vector3.new(-844.763977, 37,0040169, -81.8048553) or v.Position == Vector3.new(-844.763977, 37.0040169, -81.8048553) then
+				v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+					if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)
+			end
+		end
+	end
+	
+	
+end
+coroutine.wrap(OMOJCX_fake_script)()
+local function ZCKV_fake_script() -- bigpoppa.LocalScript 
+	local script = Instance.new('LocalScript', bigpoppa)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(-273.8, 38, -235.4)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(-273.8, 38, -235.4)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(ZCKV_fake_script)()
+local function BMOIX_fake_script() -- bank.LocalScript 
+	local script = Instance.new('LocalScript', bank)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(55.786, 37, -40.614)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(55.786, 37, -40.614)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(BMOIX_fake_script)()
+local function OBED_fake_script() -- bank.kanb 
+	local script = Instance.new('LocalScript', bank)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(57.4504, 35.6, -42.3245) or v.Position == Vector3.new(57.4504089, 35.6000328, -42.3244934) then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	    end
+	
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("Part") then
+			if v.Position == Vector3.new(57.4504, 35.6, -42.3245) or v.Position == Vector3.new(57.4504089, 35.6000328, -42.3244934) then
+				v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+					if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)			
+			end
+		end
+	end
+	
+	
+end
+coroutine.wrap(OBED_fake_script)()
+local function WVPIXV_fake_script() -- bananacars.LocalScript 
+	local script = Instance.new('LocalScript', bananacars)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(-635, 35.5998, -385.6)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(-635, 35.5998, -385.6)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+		
+	end)
+end
+coroutine.wrap(WVPIXV_fake_script)()
+local function MEWCFT_fake_script() -- hideoutsafe.LocalScript 
+	local script = Instance.new('LocalScript', hideoutsafe)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(-835.5, 35.8, -184.5)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(-835.5, 35.8, -184.5)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(MEWCFT_fake_script)()
+local function EQYLJST_fake_script() -- hideoutsafe.safehideout 
+	local script = Instance.new('LocalScript', hideoutsafe)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(-834.499756, 35.6000137, -184.59938) or v.Position == Vector3.new(-834.5, 35.6, -184.599) or v.Position == Vector3.new(-834.499756, 35.6000137, -184.599938) then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	    end
+	
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("Part") then
+			if v.Position == Vector3.new(-834.499756, 35.6000137, -184.59938) or v.Position == Vector3.new(-834.5, 35.6, -184.599) or v.Position == Vector3.new(-834.499756, 35.6000137, -184.599938) then
+				v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+					if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)			
+			end
+		end
+	end
+	
+	
+end
+coroutine.wrap(EQYLJST_fake_script)()
+local function LZMFED_fake_script() -- alleysafe.leysaf 
+	local script = Instance.new('LocalScript', alleysafe)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(69.6505, 37.2, 497.5)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(69.6505, 37.2, 497.5)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		
+		tween.Completed:Connect(function()
+			var = false
+		end)
+		
+	end)
+end
+coroutine.wrap(LZMFED_fake_script)()
+local function KPDTVS_fake_script() -- alleysafe.safeofalley 
+	local script = Instance.new('LocalScript', alleysafe)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            if v.Orientation == Vector3.new(0,0,0) then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	    end
+	
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("Part") then
+			if v.Orientation == Vector3.new(0,0,0) then
+				v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+					if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)			
+			end
+		end
+	end
+	
+	
+end
+coroutine.wrap(KPDTVS_fake_script)()
+local function LPXXET_fake_script() -- Vaults.LocalScript 
+	local script = Instance.new('LocalScript', Vaults)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	local twn = game:GetService("TweenService")
+	
+	local plr = game:GetService("Players").LocalPlayer
+	
+	local speed = 290
+	
+	local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(249.8, 36, 492.7)).magnitude
+	
+	local tweenspeed = dist/tonumber(speed)
+	
+	local goal = {}
+	goal.CFrame = CFrame.new(249.8, 36, 492.7)
+	
+	
+	local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+	
+	local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+	
+	local var = true
+	
+	local RunService = game:GetService("RunService")
+	RunService.Stepped:Connect(function()
+		if var == true then
+			for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+		        if v:IsA("BasePart") then
+		            v.CanCollide = false
+					end
+		        end
+		    end
+	end)
+	
+	tween:Play()
+	tween.Completed:Connect(function()
+		var = false
+	end)
+	end)
+end
+coroutine.wrap(LPXXET_fake_script)()
+local function RNFFNG_fake_script() -- QuavaJuice.LocalScript 
+	local script = Instance.new('LocalScript', QuavaJuice)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(-283.5, 35.6, -161)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(-283.5, 35.6, -161)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+			RunService.Stepped:Connect(function()
+			if var == true then
+				for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(RNFFNG_fake_script)()
+local function EGYPSMR_fake_script() -- QuavaJuice.quava 
+	local script = Instance.new('LocalScript', QuavaJuice)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(-281.689, 35.6, -161.943) or v.Position == Vector3.new(-281.689423, 35.6000328, -161.943466) then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	    end
+	
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("Part") then
+			if v.Position == Vector3.new(-281.689, 35.6, -161.943) or v.Position == Vector3.new(-281.689423, 35.6000328, -161.943466) then
+				v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+					if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)			
+			end
+		end
+	end
+	
+	
+end
+coroutine.wrap(EGYPSMR_fake_script)()
+local function LFEIJJW_fake_script() -- MeleeShop.LocalScript 
+	local script = Instance.new('LocalScript', MeleeShop)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(192, 35.6, 250)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(192, 35.6, 250)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+				for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+		
+	end)
+end
+coroutine.wrap(LFEIJJW_fake_script)()
+local function BQIGJJN_fake_script() -- MeleeShop.eelem 
+	local script = Instance.new('LocalScript', MeleeShop)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("Part") then
+			if v.Position == Vector3.new(190.554, 35.6, 250.921) or v.Position == Vector3.new(190.553528, 35.6000328, 250.921188, 0.374604106, -0, -0.92718488, 0, 1, -0, 0.92718488, 0, 0.374604106) or v.Position == Vector3.new(190.553528, 35.6000328, 250.921188) then
+				if v.ClickDetector.MaxActivationDistance == 5 then
+					
+					script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					
+				elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+			
+					script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+				end
+			end
+		end
+	end
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("Part") then
+			if v.Position == Vector3.new(190.554, 35.6, 250.921) or v.Position == Vector3.new(190.553528, 35.6000328, 250.921188, 0.374604106, -0, -0.92718488, 0, 1, -0, 0.92718488, 0, 0.374604106) or v.Position == Vector3.new(190.553528, 35.6000328, 250.921188) then
+				v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+					if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)			
+			end
+		end
+	end
+	
+	
+end
+coroutine.wrap(BQIGJJN_fake_script)()
+local function AZHYFOR_fake_script() -- Liquor.LocalScript 
+	local script = Instance.new('LocalScript', Liquor)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(70, 36.984, -391)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(70, 36.984, -391)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(AZHYFOR_fake_script)()
+local function KCHZ_fake_script() -- Liquor.lick1 
+	local script = Instance.new('LocalScript', Liquor)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(68.67, 37.004, -387.12) or v.Position == Vector3.new(68.6700363, 37.0040169, -387.119812) or v.Position == Vector3.new(68.6700363, 37.0040169, -387.119812) then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	    end
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("BasePart") then
+			if v.Position == Vector3.new(68.67, 37.004, -387.12) or v.Position == Vector3.new(68.6700363, 37.0040169, -387.119812) or v.Position == Vector3.new(68.6700363, 37.0040169, -387.119812) then
+			v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+			if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)
+			end
+		end
+	end
+	
+end
+coroutine.wrap(KCHZ_fake_script)()
+local function BHBXP_fake_script() -- Laundromat.LocalScript 
+	local script = Instance.new('LocalScript', Laundromat)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(166, 34.5, -282)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(166, 34.5, -282)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+				for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(BHBXP_fake_script)()
+local function MOUJ_fake_script() -- Laundromat.laundro 
+	local script = Instance.new('LocalScript', Laundromat)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(165.95, 35.6, -284.05) or v.Position == Vector3.new(165.949646, 35.6000328, -284.049805) then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	    end
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("BasePart") then
+			if v.Position == Vector3.new(165.95, 35.6, -284.05) or v.Position == Vector3.new(165.949646, 35.6000328, -284.049805) then
+			v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+			if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)
+			end
+		end
+	end
+	
+end
+coroutine.wrap(MOUJ_fake_script)()
+local function QOIUHI_fake_script() -- Gym.LocalScript 
+	local script = Instance.new('LocalScript', Gym)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(269, 35.6, 1)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(269, 35.6, 1)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(QOIUHI_fake_script)()
+local function HTESP_fake_script() -- Gym.myg 
+	local script = Instance.new('LocalScript', Gym)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(270.552, 35.6, 0.0331507) or v.Position == Vector3.new(270.55246, 35.6000328, 0.0331506729) then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	    end
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("BasePart") then
+			if v.Position == Vector3.new(270.552, 35.6, 0.0331507) or v.Position == Vector3.new(270.55246, 35.6000328, 0.0331506729) then
+			v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+			if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)
+			end
+		end
+	end
+	
+end
+coroutine.wrap(HTESP_fake_script)()
+local function GXPQHR_fake_script() -- Gunshop1.LocalScript 
+	local script = Instance.new('LocalScript', Gunshop1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(-80.248, 36.6611, -519.343)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(-80.248, 36.6611, -519.343)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(GXPQHR_fake_script)()
+local function RFZIHKZ_fake_script() -- GunShop.LocalScript 
+	local script = Instance.new('LocalScript', GunShop)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(-539.598755, 34.4000206, -177.600357)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(-539.598755, 34.4000206, -177.600357)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+		
+	end)
+end
+coroutine.wrap(RFZIHKZ_fake_script)()
+local function BOWD_fake_script() -- FarLiquor.LocalScript 
+	local script = Instance.new('LocalScript', FarLiquor)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(-697.25, 36.9, 134.225)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(-697.25, 36.9, 134.225)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+				for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+			
+	end)
+	
+	
+	
+end
+coroutine.wrap(BOWD_fake_script)()
+local function OBKZO_fake_script() -- FarLiquor.liquoroffar 
+	local script = Instance.new('LocalScript', FarLiquor)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(-693.455, 36.9, 134.225) or v.Position == Vector3.new(-693.455139, 36.900013, 134.225388) then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	   end
+	
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("Part") then
+			if v.Position == Vector3.new(-693.455, 36.9, 134.225) or v.Position == Vector3.new(-693.455139, 36.900013, 134.225388) then
+				v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+					if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)
+			end
+		end
+	end
+	
+end
+coroutine.wrap(OBKZO_fake_script)()
+local function NBQB_fake_script() -- BigSlop.LocalScript 
+	local script = Instance.new('LocalScript', BigSlop)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(-841, 37.004, -82.5)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(-841, 37.004, -82.5)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+		
+	end)
+	
+end
+coroutine.wrap(NBQB_fake_script)()
+local function RSMOFP_fake_script() -- BigSlop.slopofbig 
+	local script = Instance.new('LocalScript', BigSlop)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("BasePart") then
+			if v.Position == Vector3.new(-837.534, 37.004, -81.8848) or v.Position == Vector3.new(-837.533997, 37.0040169, -81.88488114) or v.Position == Vector3.new(-837.533997, 37.0040169, -81.8848114) then
+	           if v.ClickDetector.MaxActivationDistance == 5 then
+	              script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	               elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	end
+	
+	for i,v in pairs(game.Workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("Part") then
+			if v.Position == Vector3.new(-837.534, 37.004, -81.8848) or v.Position == Vector3.new(-837.533997, 37.0040169, -81.88488114) or v.Position == Vector3.new(-837.533997, 37.0040169, -81.8848114) then
+				v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+					if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)
+			end
+		end
+	end
+end
+coroutine.wrap(RSMOFP_fake_script)()
+local function RKORLCJ_fake_script() -- roses2.LocalScript 
+	local script = Instance.new('LocalScript', roses2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(-120.4, 37.384, 477.2)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(-120.4, 37.384, 477.2)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(RKORLCJ_fake_script)()
+local function UOIODFV_fake_script() -- roses2.rse2 
+	local script = Instance.new('LocalScript', roses2)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(-118.524, 36.827, 477.5) or v.Position == Vector3.new(-118.524002, 36.8269997, 477.5) or v.Position == Vector3.new(-118.523605, 36.8270368, 477.500061)  then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	    end
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("Part") then
+			if v.Position == Vector3.new(-118.524, 36.827, 477.5) or v.Position == Vector3.new(-118.524002, 36.8269997, 477.5) or v.Position == Vector3.new(-118.523605, 36.8270368, 477.500061)  then
+				v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+					if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)			
+			end
+		end
+	end
+	
+	
+end
+coroutine.wrap(UOIODFV_fake_script)()
+local function FQYT_fake_script() -- roses3.LocalScript 
+	local script = Instance.new('LocalScript', roses3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(-101.4, 37.384, 485.2)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(-101.4, 37.384, 485.2)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(FQYT_fake_script)()
+local function GLAQAKO_fake_script() -- roses3.rse3 
+	local script = Instance.new('LocalScript', roses3)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(-103.206, 36.827, 485.351) or v.Position == Vector3.new(-103.206001, 36.8269997, 485.351013) or v.Position == Vector3.new(-103.206177, 36.827034, 485.351196)  then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	    end
+	
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("Part") then
+			if v.Position == Vector3.new(-103.206, 36.827, 485.351) or v.Position == Vector3.new(-103.206001, 36.8269997, 485.351013) or v.Position == Vector3.new(-103.206177, 36.827034, 485.351196)  then
+				v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+					if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)			
+			end
+		end
+	end
+	
+	
+end
+coroutine.wrap(GLAQAKO_fake_script)()
+local function QUQLAP_fake_script() -- roses4.LocalScript 
+	local script = Instance.new('LocalScript', roses4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(-101.4, 37.384, 474.2)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(-101.4, 37.384, 474.2)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(QUQLAP_fake_script)()
+local function PYECP_fake_script() -- roses4.rse4 
+	local script = Instance.new('LocalScript', roses4)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(-103.206, 36.827, 474.419) or v.Position == Vector3.new(-103.206001, 36.8269997, 474.419006) or v.Position == Vector3.new(-103.206177, 36.827034, 474.418671)  then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	    end
+	
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("Part") then
+			if v.Position == Vector3.new(-103.206, 36.827, 474.419) or v.Position == Vector3.new(-103.206001, 36.8269997, 474.419006) or v.Position == Vector3.new(-103.206177, 36.827034, 474.418671)  then
+				v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+					if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)			
+			end
+		end
+	end
+	
+	
+end
+coroutine.wrap(PYECP_fake_script)()
+local function KOKOJNV_fake_script() -- Liquor2.LocalScript 
+	local script = Instance.new('LocalScript', Liquor2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(70, 36.984, -391)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(70, 36.984, -391)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(KOKOJNV_fake_script)()
+local function OVVK_fake_script() -- Liquor2.lick2 
+	local script = Instance.new('LocalScript', Liquor2)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(68.59, 37.004, -394.35) or v.Position == Vector3.new(68.5899963, 37.0040016, -394.350006) or v.Position == Vector3.new(68.5900269, 37.0040169, -394.349731) then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	    end
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("BasePart") then
+			if v.Position == Vector3.new(68.59, 37.004, -394.35) or v.Position == Vector3.new(68.5899963, 37.0040016, -394.350006) or v.Position == Vector3.new(68.5900269, 37.0040169, -394.349731) then
+			v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+			if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)
+			end
+		end
+	end
+	
+end
+coroutine.wrap(OVVK_fake_script)()
+local function DGBQOV_fake_script() -- vaultlick2.LocalScript 
+	local script = Instance.new('LocalScript', vaultlick2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(265.5, 37.004, 300.6)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(265.5, 37.004, 300.6)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(DGBQOV_fake_script)()
+local function DQTTZ_fake_script() -- vaultlick2.lickofvault2 
+	local script = Instance.new('LocalScript', vaultlick2)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(264.39, 37.004, 296.85) or v.Position == Vector3.new(264.390015, 37.0040016, 296.850006) or v.Position == Vector3.new(264.389557, 37.0040169, 296.850281) then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	    end
+	
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("Part") then
+			if v.Position == Vector3.new(264.39, 37.004, 296.85) or v.Position == Vector3.new(264.390015, 37.0040016, 296.850006) or v.Position == Vector3.new(264.389557, 37.0040169, 296.850281) then
+				v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+					if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)			
+			end
+		end
+	end
+	
+	
+end
+coroutine.wrap(DQTTZ_fake_script)()
+local function DHFNMPG_fake_script() -- cluck2.LocalScript 
+	local script = Instance.new('LocalScript', cluck2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(-103, 36.784, 36.7)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(-103, 36.784, 36.7)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(DHFNMPG_fake_script)()
+local function ZDYECO_fake_script() -- cluck2.luck2 
+	local script = Instance.new('LocalScript', cluck2)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(-102.3, 36.784, 32.2991) or v.Position == Vector3.new(-102.300095, 36.7840462, 32.2991219) or v.Position == Vector3.new(102.300095, 36.7840462, 32.2991219) or v.Position == Vector3.new(-102.300095, 36.7840462, 32.2991219) then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	    end
+	
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("Part") then
+			if v.Position == Vector3.new(-102.3, 36.784, 32.2991) or v.Position == Vector3.new(-102.300095, 36.7840462, 32.2991219) or v.Position == Vector3.new(102.300095, 36.7840462, 32.2991219) or v.Position == Vector3.new(-102.300095, 36.7840462, 32.2991219) then
+				v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+					if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)			
+			end
+		end
+	end
+	
+	
+end
+coroutine.wrap(ZDYECO_fake_script)()
+local function DNYKUGR_fake_script() -- FarLiquor2.LocalScript 
+	local script = Instance.new('LocalScript', FarLiquor2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(-697.25, 36.9, 134.225)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(-697.25, 36.9, 134.225)
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+				for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+		
+	end)
+	
+	
+	
+end
+coroutine.wrap(DNYKUGR_fake_script)()
+local function OEBQSZ_fake_script() -- FarLiquor2.liquoroffar2 
+	local script = Instance.new('LocalScript', FarLiquor2)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(-700.685, 36.9, 134.305) or v.Position == Vector3.new(-700.685059, 36.900013, 134.305405) or v.Position == Vector3.new(-700.685059, 36.900013, 134.305405) then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	    end
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("Part") then
+			if v.Position == Vector3.new(-700.685, 36.9, 134.305) or v.Position == Vector3.new(-700.685059, 36.900013, 134.305405) or v.Position == Vector3.new(-700.685059, 36.900013, 134.305405) then
+			v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+			if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)
+			end
+		end
+	end
+	
+end
+coroutine.wrap(OEBQSZ_fake_script)()
+local function WKCJ_fake_script() -- cementarysafe.safeofcem 
+	local script = Instance.new('LocalScript', cementarysafe)
+
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+	        if v.Name == "Cash" and v:IsA("BasePart") then
+	            
+	            if v.Position == Vector3.new(-463.554, 34.9129, 136.079) or v.Position == Vector3.new(-463.554199, 34.9128914, 136.079361) then
+	                if v.ClickDetector.MaxActivationDistance == 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+	                elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+	                    script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+	                end
+	            end
+	        end
+	    end
+	
+	
+	for i,v in pairs(workspace.Shops:GetDescendants()) do
+		if v.Name == "Cash" and v:IsA("Part") then
+			if v.Position == Vector3.new(-463.554, 34.9129, 136.079) or v.Position == Vector3.new(-463.554199, 34.9128914, 136.079361) then
+				v.ClickDetector:GetPropertyChangedSignal("MaxActivationDistance"):Connect(function()
+					if v.ClickDetector.MaxActivationDistance == 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+					elseif v.ClickDetector.MaxActivationDistance ~= 5 then
+						script.Parent.TextColor3 = Color3.fromRGB(255, 85, 85)
+					end
+				end)			
+			end
+		end
+	end
+	
+	
+end
+coroutine.wrap(WKCJ_fake_script)()
+local function EATFRIR_fake_script() -- cementarysafe.LocalScript 
+	local script = Instance.new('LocalScript', cementarysafe)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local twn = game:GetService("TweenService")
+		
+		local plr = game:GetService("Players").LocalPlayer
+		
+		local speed = 290
+		
+		local dist = (plr.Character.HumanoidRootPart.Position - Vector3.new(-463, 36, 138)).magnitude
+		
+		local tweenspeed = dist/tonumber(speed)
+		
+		local goal = {}
+		goal.CFrame = CFrame.new(-463, 36, 138)
+		
+		
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		
+		local tween = twn:Create(plr.Character.Humanoid.RootPart, inf, goal)
+		
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+	end)
+end
+coroutine.wrap(EATFRIR_fake_script)()
+local function SOUUD_fake_script() -- tp2player3.LocalScript 
+	local script = Instance.new('LocalScript', tp2player3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local txt = script.Parent.Parent.playerbox3.Text
+		local me = game.Players.LocalPlayer
+		local root = me.Character.HumanoidRootPart
+		local u = game.Players:FindFirstChild(txt)
+		local uroot = u.Character.HumanoidRootPart
+		local twn = game:GetService("TweenService")
+		local speed = 290
+		local dist = (root.Position - uroot.Position).magnitude
+		local tweenspeed = dist/speed
+		local goal = {}
+		goal.CFrame = uroot.CFrame
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		local tween = twn:Create(me.Character.HumanoidRootPart, inf, goal)
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+					end
+			     end
+			 end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+			
+		if u == nil then return end
+	end)
+end
+coroutine.wrap(SOUUD_fake_script)()
+local function CIWNUT_fake_script() -- tp2player2.LocalScript 
+	local script = Instance.new('LocalScript', tp2player2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local txt = script.Parent.Parent.playerbox2.Text
+		local me = game.Players.LocalPlayer
+		local mec = me.Character
+		local root = mec.HumanoidRootPart
+		local u = game.Players:FindFirstChild(txt)
+		local uroot = u.Character.HumanoidRootPart
+		local twn = game:GetService("TweenService")
+		local speed = 290
+		local dist = (root.Position - uroot.Position).magnitude
+		local tweenspeed = dist/speed
+		local goal = {}
+		goal.CFrame = uroot.CFrame
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		local tween = twn:Create(me.Character.HumanoidRootPart, inf, goal)
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+				for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+					 if v:IsA("BasePart") then
+					      v.CanCollide = false
+					end
+			    end
+			end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+			
+		if u == nil then return end
+	end)
+end
+coroutine.wrap(CIWNUT_fake_script)()
+local function SJXBS_fake_script() -- loop.loop 
+	local script = Instance.new('LocalScript', loop)
+
+	function juan()
+			script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+			_G.one = true
+			while true do
+	        wait()
+	        if _G.one then
+			local txt = script.Parent.Parent.playerbox.Text
+			local me = game.Players.LocalPlayer
+			local u = game.Players:FindFirstChild(txt)
+			local root = me.Character.HumanoidRootPart
+			local uroot = u.Character.HumanoidRootPart
+			local twn = game:GetService("TweenService")
+			local speed = 285
+			local dist = (root.CFrame.p - uroot.CFrame.p).magnitude
+			local tweenspeed = dist/tonumber(speed)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+			
+			local goal = {}
+			goal.CFrame = uroot.CFrame
+			
+			local tween = twn:Create(root, inf, goal)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+	
+			if u == nil then return end
+			
+			local RunService = game:GetService("RunService")
+				RunService.Stepped:Connect(function()
+					if var == true then
+						for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+		        			if v:IsA("BasePart") then
+		            		v.CanCollide = false
+						end
+		        	end
+		    end
+	end)
+	
+	tween:Play()
+	tween.Completed:Connect(function()
+		var = false
+	end)
+	       end
+	end
+			wait(0.6)
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.TextColor3 == Color3.fromRGB(88, 46, 255) then
+			juan() else
+			script.Parent.TextColor3 = Color3.fromRGB(88, 46, 255)
+			_G.one = false
+		end
+	end)
+end
+coroutine.wrap(SJXBS_fake_script)()
+local function AIWGXS_fake_script() -- tp2player.LocalScript 
+	local script = Instance.new('LocalScript', tp2player)
+
+	function ee()
+	local txt = script.Parent.Parent.playerbox.Text
+	local me = game.Players.LocalPlayer
+	local root = me.Character.HumanoidRootPart
+	local uroot = game.Players:FindFirstChild(txt).Character.HumanoidRootPart
+	local u = game.Players:FindFirstChild(txt)
+	local twn = game:GetService("TweenService")
+	local speed = 290
+	local dist = (root.Position - uroot.Position).magnitude
+	local tweenspeed = dist/speed
+	
+	local goal = {}
+	goal.CFrame = uroot.CFrame
+	local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+	local tween = twn:Create(root, inf, goal)
+	local var = true
+	
+	local RunService = game:GetService("RunService")
+	RunService.Stepped:Connect(function()
+		if var == true then
+			for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+				if v:IsA("BasePart") then
+					v.CanCollide = false
+				end
+		    end
+		end
+	end)
+	
+	tween:Play()
+	
+	tween.Completed:Connect(function()
+		var = false
+	end)
+	
+	if u == nil then return end
+	
+	end
+	script.Parent.MouseButton1Click:Connect(ee)
+end
+coroutine.wrap(AIWGXS_fake_script)()
+local function UVKPBOI_fake_script() -- twirl.tw1 
+	local script = Instance.new('LocalScript', twirl)
+
+	function twjuan()
+		script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+		_G.twone = true
+			local txt = script.Parent.Parent.playerbox.Text
+			local me = game.Players.LocalPlayer
+			local u = game.Players:FindFirstChild(script.Parent.Parent.playerbox.Text)
+			local root = me.Character.HumanoidRootPart
+			local uroot = u.Character.HumanoidRootPart
+			local twn = game:GetService("TweenService")
+			local speed = 290
+			local dist = (root.Position + uroot.Position).magnitude
+			local tweenspeed = dist/tonumber(speed)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+			
+			local goal = {}
+			goal.CFrame = CFrame.new(uroot.Position)
+			
+			local tween = twn:Create(root, inf, goal)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+	
+			if u == nil then return end 
+			
+			local RunService = game:GetService("RunService")
+				RunService.Stepped:Connect(function()
+					if var == true then
+						for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+		        			if v:IsA("BasePart") then
+		            		v.CanCollide = false
+						end
+		        	end
+		    end
+	end)
+	tween:Play()
+	tween.Completed:Connect(function()
+	local i = 0
+	while _G.twone do
+		for nums = 7, -7, -1 do
+			for nums2 = -3, 3, .5 do
+				if not _G.twone then break end
+	    		root.CFrame = CFrame.new(uroot.Position) * CFrame.Angles(0, i, 0) * CFrame.new(math.abs(nums), math.abs(nums2), math.abs(nums))
+				i = i + math.rad(33.99)
+				wait()
+				end
+		end
+	end
+		var = false
+	end)
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.TextColor3 == Color3.fromRGB(88, 46, 255) then
+			twjuan() else
+			script.Parent.TextColor3 = Color3.fromRGB(88, 46, 255)
+			_G.twone = false
+		end
+	end)
+	
+end
+coroutine.wrap(UVKPBOI_fake_script)()
+local function ZZVQI_fake_script() -- orbit.orb1 
+	local script = Instance.new('LocalScript', orbit)
+
+	function m1orbit()
+		script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+		_G.woarbit = true
+			local txt = script.Parent.Parent.playerbox.Text
+			local me = game.Players.LocalPlayer
+			local u = game.Players:FindFirstChild(txt)
+			local root = me.Character.HumanoidRootPart
+			local uroot = u.Character.HumanoidRootPart
+			local twn = game:GetService("TweenService")
+			local speed = 285
+			local dist = (root.Position + uroot.Position).magnitude
+			local tweenspeed = dist/tonumber(speed)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+			
+			local goal = {}
+			goal.CFrame = CFrame.new(uroot.Position)
+			
+			local tween = twn:Create(root, inf, goal)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+	
+			if u == nil then return end 
+			
+			local RunService = game:GetService("RunService")
+				RunService.Stepped:Connect(function()
+					if var == true then
+						for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+		        			if v:IsA("BasePart") then
+		            		v.CanCollide = false
+						end
+		        	end
+		    end
+	end)
+	tween:Play()
+	tween.Completed:Connect(function()
+	local i = 0
+	while _G.woarbit do
+	    root.CFrame = CFrame.new(uroot.Position) * CFrame.Angles(0, i, 0) * CFrame.new(0, 0, 5)
+	    i = i + math.rad(33.36)
+	    wait()
+	end
+		var = false
+	end)
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.TextColor3 == Color3.fromRGB(88, 46, 255) then
+			m1orbit() else
+			script.Parent.TextColor3 = Color3.fromRGB(88, 46, 255)
+			_G.woarbit = false
+		end
+	end)
+	
+end
+coroutine.wrap(ZZVQI_fake_script)()
+local function OJLKPKX_fake_script() -- orbit2.orb2 
+	local script = Instance.new('LocalScript', orbit2)
+
+	function twobit()
+		script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+		_G.tibro = true
+			local txt = script.Parent.Parent.playerbox2.Text
+			local me = game.Players.LocalPlayer
+			local u = game.Players:FindFirstChild(txt)
+			local root = me.Character.HumanoidRootPart
+			local uroot = u.Character.HumanoidRootPart
+			local twn = game:GetService("TweenService")
+			local speed = 285
+			local dist = (root.Position + uroot.Position).magnitude
+			local tweenspeed = dist/tonumber(speed)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+			
+			local goal = {}
+			goal.CFrame = CFrame.new(uroot.Position)
+			
+			local tween = twn:Create(root, inf, goal)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+	
+			if u == nil then return end
+			
+			local RunService = game:GetService("RunService")
+				RunService.Stepped:Connect(function()
+					if var == true then
+						for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+		        			if v:IsA("BasePart") then
+		            		v.CanCollide = false
+						end
+		        	end
+		    end
+	end)
+	tween:Play()
+	tween.Completed:Connect(function()
+	local i = 0
+	while _G.tibro do
+	    root.CFrame = CFrame.new(uroot.Position) * CFrame.Angles(0, i, 0) * CFrame.new(0, 0, math.random(5,6))
+	    i = i + math.rad(33.6)
+	    wait()
+	end
+		var = false
+	end)
+	       end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.TextColor3 == Color3.fromRGB(88, 46, 255) then
+			twobit() else
+			script.Parent.TextColor3 = Color3.fromRGB(88, 46, 255)
+			_G.tibro = false
+		end
+	end)
+	
+end
+coroutine.wrap(OJLKPKX_fake_script)()
+local function GAAJLN_fake_script() -- twirl2.tw2 
+	local script = Instance.new('LocalScript', twirl2)
+
+	function atw2()
+		script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+		_G.otwo = true
+			local txt = script.Parent.Parent.playerbox2.Text
+			local me = game.Players.LocalPlayer
+			local u = game.Players:FindFirstChild(txt)
+			local root = me.Character.HumanoidRootPart
+			local uroot = u.Character.HumanoidRootPart
+			local twn = game:GetService("TweenService")
+			local speed = 285
+			local dist = (root.Position + uroot.Position).magnitude
+			local tweenspeed = dist/tonumber(speed)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+			
+			local goal = {}
+			goal.CFrame = CFrame.new(uroot.Position)
+			
+			local tween = twn:Create(root, inf, goal)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+	
+			if u == nil then return end 
+			
+			local RunService = game:GetService("RunService")
+				RunService.Stepped:Connect(function()
+					if var == true then
+						for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+		        			if v:IsA("BasePart") then
+		            		v.CanCollide = false
+						end
+		        	end
+		    end
+	end)
+	tween:Play()
+	tween.Completed:Connect(function()
+	local i = 0
+	while _G.otwo do
+		for nums = 7, -7, -1 do
+			for nums2 = -3, 3, .5 do
+				if not _G.otwo then break end
+	    		root.CFrame = CFrame.new(uroot.Position) * CFrame.Angles(0, i, 0) * CFrame.new(math.abs(nums), math.abs(nums2), math.abs(nums))
+				i = i + math.rad(33.99)
+				wait()
+				end
+		end
+	end
+		var = false
+	end)
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.TextColor3 == Color3.fromRGB(88, 46, 255) then
+			atw2() else
+			script.Parent.TextColor3 = Color3.fromRGB(88, 46, 255)
+			_G.otwo = false
+		end
+	end)
+	
+end
+coroutine.wrap(GAAJLN_fake_script)()
+local function NXOPNVC_fake_script() -- loop2.loop 
+	local script = Instance.new('LocalScript', loop2)
+
+	function twoloop()
+			script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+			_G.two = true
+			spawn(function()
+			while true do
+	        wait()
+	        if _G.two then
+	            local txt = script.Parent.Parent.playerbox2.Text
+				local me = game.Players.LocalPlayer
+				local u = game.Players:FindFirstChild(txt)
+				local twn = game:GetService("TweenService")
+				local speed = 285
+				local dist = (me.Character.HumanoidRootPart.Position - u.Character.HumanoidRootPart.Position).magnitude
+				local tweenspeed = dist/tonumber(speed)
+				local goal = {}
+				goal.CFrame = u.Character.HumanoidRootPart.CFrame
+				local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+				local tween = twn:Create(me.Character.HumanoidRootPart, inf, goal)
+				if u == nil then return end
+			local RunService = game:GetService("RunService")
+	RunService.Stepped:Connect(function()
+	if var == true then
+	for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+		        if v:IsA("BasePart") then
+		            v.CanCollide = false
+					end
+		        end
+		    end
+	end)
+	
+	tween:Play()
+	tween.Completed:Connect(function()
+		var = false
+	end)
+	       end
+	end
+	end)
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.TextColor3 == Color3.fromRGB(88, 46, 255) then
+			twoloop() else
+			script.Parent.TextColor3 = Color3.fromRGB(88, 46, 255)
+			_G.two = false
+		end
+	end)
+end
+coroutine.wrap(NXOPNVC_fake_script)()
+local function ACCQQD_fake_script() -- loop3.l3 
+	local script = Instance.new('LocalScript', loop3)
+
+	function threeloop()
+			script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+			_G.three = true
+			spawn(function()
+			while true do
+	        wait()
+	        if _G.three then
+	            local txt = script.Parent.Parent.playerbox3.Text
+				local me = game.Players.LocalPlayer
+				local u = game.Players:FindFirstChild(txt)
+				local twn = game:GetService("TweenService")
+				local speed = 285
+				local dist = (me.Character.HumanoidRootPart.Position - u.Character.HumanoidRootPart.Position).magnitude
+				local tweenspeed = dist/tonumber(speed)
+				local goal = {}
+				goal.CFrame = u.Character.HumanoidRootPart.CFrame
+				local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+				local tween = twn:Create(me.Character.HumanoidRootPart, inf, goal)
+				if u == nil then return end
+			local RunService = game:GetService("RunService")
+	RunService.Stepped:Connect(function()
+	if var == true then
+	for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+		        if v:IsA("BasePart") then
+		            v.CanCollide = false
+					end
+		        end
+		    end
+	end)
+	
+	tween:Play()
+	tween.Completed:Connect(function()
+		var = false
+	end)
+	       end
+	end
+	end)
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.TextColor3 == Color3.fromRGB(88, 46, 255) then
+			threeloop() else
+			script.Parent.TextColor3 = Color3.fromRGB(88, 46, 255)
+			_G.three = false
+		end
+	end)
+end
+coroutine.wrap(ACCQQD_fake_script)()
+local function CHUGUC_fake_script() -- twirl3.tw3 
+	local script = Instance.new('LocalScript', twirl3)
+
+	function wt3()
+		script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+		_G.hethree = true
+			local txt = script.Parent.Parent.playerbox3.Text
+			local me = game.Players.LocalPlayer
+			local u = game.Players:FindFirstChild(txt)
+			local root = me.Character.HumanoidRootPart
+			local uroot = u.Character.HumanoidRootPart
+			local twn = game:GetService("TweenService")
+			local speed = 285
+			local dist = (root.Position + uroot.Position).magnitude
+			local tweenspeed = dist/tonumber(speed)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+			
+			local goal = {}
+			goal.CFrame = CFrame.new(uroot.Position)
+			
+			local tween = twn:Create(root, inf, goal)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+	
+			if u == nil then return end 
+			
+			local RunService = game:GetService("RunService")
+				RunService.Stepped:Connect(function()
+					if var == true then
+						for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+		        			if v:IsA("BasePart") then
+		            		v.CanCollide = false
+						end
+		        	end
+		    end
+	end)
+	tween:Play()
+	tween.Completed:Connect(function()
+	local i = 0
+	while _G.hethree do
+		for nums = 7, -7, -1 do
+			for nums2 = -3, 3, .5 do
+				if not _G.hethree then break end
+	    		root.CFrame = CFrame.new(uroot.Position) * CFrame.Angles(0, i, 0) * CFrame.new(math.abs(nums), math.abs(nums2), math.abs(nums))
+				i = i + math.rad(33.99)
+				wait()
+				end
+		end
+	end
+		var = false
+	end)
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.TextColor3 == Color3.fromRGB(88, 46, 255) then
+			wt3() else
+			script.Parent.TextColor3 = Color3.fromRGB(88, 46, 255)
+			_G.hethree = false
+		end
+	end)
+	
+end
+coroutine.wrap(CHUGUC_fake_script)()
+local function GIVVV_fake_script() -- orbit3.orb3 
+	local script = Instance.new('LocalScript', orbit3)
+
+	function otorbit()
+		script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+		_G.throrbit = true
+			local txt = script.Parent.Parent.playerbox3.Text
+			local me = game.Players.LocalPlayer
+			local u = game.Players:FindFirstChild(txt)
+			local root = me.Character.HumanoidRootPart
+			local uroot = u.Character.HumanoidRootPart
+			local twn = game:GetService("TweenService")
+			local speed = 285
+			local dist = (root.Position + uroot.Position).magnitude
+			local tweenspeed = dist/tonumber(speed)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+			
+			local goal = {}
+			goal.CFrame = CFrame.new(uroot.Position)
+			
+			local tween = twn:Create(root, inf, goal)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+	
+			if u == nil then return end
+			
+			local RunService = game:GetService("RunService")
+				RunService.Stepped:Connect(function()
+					if var == true then
+						for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+		        			if v:IsA("BasePart") then
+		            		v.CanCollide = false
+						end
+		        	end
+		    end
+	end)
+	tween:Play()
+	tween.Completed:Connect(function()
+	local i = 0
+	while _G.throrbit do
+	    root.CFrame = CFrame.new(uroot.Position) * CFrame.Angles(0, i, 0) * CFrame.new(0, 0, math.random(1,8))
+	    i = i + math.rad(33.6)
+	    wait()
+	end
+		var = false
+	end)
+	       end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.TextColor3 == Color3.fromRGB(88, 46, 255) then
+			otorbit() else
+			script.Parent.TextColor3 = Color3.fromRGB(88, 46, 255)
+			_G.throrbit = false
+		end
+	end)
+	
+end
+coroutine.wrap(GIVVV_fake_script)()
+local function TJOLL_fake_script() -- next.ns 
+	local script = Instance.new('LocalScript', next)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.pg1.Visible = false
+		script.Parent.Parent.pg2.Visible = true
+		script.Parent.Visible = false
+		script.Parent.Parent.next2.Visible = true
+		script.Parent.Parent.wPage.Value = "two"
+		script.Parent.Parent["1"].TextColor3 = Color3.fromRGB(88, 46, 255)
+		script.Parent.Parent["2"].TextColor3 = Color3.fromRGB(255, 174, 34)
+	end)
+end
+coroutine.wrap(TJOLL_fake_script)()
+local function SCVY_fake_script() -- tp2player6.LocalScript 
+	local script = Instance.new('LocalScript', tp2player6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local txt = script.Parent.Parent.playerbox6.Text
+		local me = game.Players.LocalPlayer
+		local u = game.Players:FindFirstChild(txt)
+		local twn = game:GetService("TweenService")
+		local speed = 290
+		local dist = (me.Character.HumanoidRootPart.Position - u.Character.HumanoidRootPart.Position).magnitude
+		local tweenspeed = dist/speed
+		local goal = {}
+		goal.CFrame = u.Character.HumanoidRootPart.CFrame
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		local tween = twn:Create(me.Character.HumanoidRootPart, inf, goal)
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+			for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+			
+		if u == nil then return end
+	end)
+end
+coroutine.wrap(SCVY_fake_script)()
+local function RXHKMUY_fake_script() -- tp2player5.LocalScript 
+	local script = Instance.new('LocalScript', tp2player5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local txt = script.Parent.Parent.playerbox5.Text
+		local me = game.Players.LocalPlayer
+		local u = game.Players:FindFirstChild(txt)
+		local twn = game:GetService("TweenService")
+		local speed = 290
+		local dist = (me.Character.HumanoidRootPart.Position - u.Character.HumanoidRootPart.Position).magnitude
+		local tweenspeed = dist/speed
+		local goal = {}
+		goal.CFrame = u.Character.HumanoidRootPart.CFrame
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		local tween = twn:Create(me.Character.HumanoidRootPart, inf, goal)
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+			for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+			
+		if u == nil then return end
+	end)
+end
+coroutine.wrap(RXHKMUY_fake_script)()
+local function EUTKLP_fake_script() -- tp2player4.LocalScript 
+	local script = Instance.new('LocalScript', tp2player4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local txt = script.Parent.Parent.playerbox4.Text
+		local me = game.Players.LocalPlayer
+		local u = game.Players:FindFirstChild(txt)
+		local twn = game:GetService("TweenService")
+		local speed = 290
+		local dist = (me.Character.HumanoidRootPart.Position - u.Character.HumanoidRootPart.Position).magnitude
+		local tweenspeed = dist/speed
+		local root = me.Character.HumanoidRootPart
+		local uroot = game.Players:FindFirstChild(txt).Character.HumanoidRootPart
+		local goal = {}
+		goal.CFrame = uroot.CFrame
+		local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+		local tween = twn:Create(root, inf, goal)
+		local var = true
+		
+		local RunService = game:GetService("RunService")
+		RunService.Stepped:Connect(function()
+			if var == true then
+		for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+			        if v:IsA("BasePart") then
+			            v.CanCollide = false
+						end
+			        end
+			    end
+		end)
+		
+		tween:Play()
+		tween.Completed:Connect(function()
+			var = false
+		end)
+			
+		if u == nil then return end
+	end)
+end
+coroutine.wrap(EUTKLP_fake_script)()
+local function MBPA_fake_script() -- loop4.loopfor 
+	local script = Instance.new('LocalScript', loop4)
+
+	function fours()
+			script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+			_G.four = true
+			while true do
+	        wait()
+	        if _G.four then
+	            local txt = script.Parent.Parent.playerbox4.Text
+				local me = game.Players.LocalPlayer
+				local u = game.Players:FindFirstChild(txt)
+				local twn = game:GetService("TweenService")
+				local speed = 285
+				local dist = (me.Character.HumanoidRootPart.Position - u.Character.HumanoidRootPart.Position).magnitude
+				local tweenspeed = dist/tonumber(speed)
+				local goal = {}
+				goal.CFrame = u.Character.HumanoidRootPart.CFrame
+				local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+				local tween = twn:Create(me.Character.HumanoidRootPart, inf, goal)
+				if u == nil then return end
+			local RunService = game:GetService("RunService")
+	RunService.Stepped:Connect(function()
+	if var == true then
+	for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+		        if v:IsA("BasePart") then
+		            v.CanCollide = false
+					end
+		        end
+		    end
+	end)
+	
+	tween:Play()
+	tween.Completed:Connect(function()
+		var = false
+	end)
+	       end
+	end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	if script.Parent.TextColor3 == Color3.fromRGB(88, 46, 255) then
+			fours() else
+			script.Parent.TextColor3 = Color3.fromRGB(88, 46, 255)
+			_G.four = false
+		end
+	end)
+end
+coroutine.wrap(MBPA_fake_script)()
+local function KKBV_fake_script() -- twirl4.tw4 
+	local script = Instance.new('LocalScript', twirl4)
+
+	function ptw4()
+		script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+		_G.forthtw = true
+			local txt = script.Parent.Parent.playerbox4.Text
+			local me = game.Players.LocalPlayer
+			local u = game.Players:FindFirstChild(txt)
+			local root = me.Character.HumanoidRootPart
+			local uroot = u.Character.HumanoidRootPart
+			local twn = game:GetService("TweenService")
+			local speed = 285
+			local dist = (root.Position + uroot.Position).magnitude
+			local tweenspeed = dist/tonumber(speed)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+			
+			local goal = {}
+			goal.CFrame = CFrame.new(uroot.Position)
+			
+			local tween = twn:Create(root, inf, goal)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+	
+			if u == nil then return end 
+			
+			local RunService = game:GetService("RunService")
+				RunService.Stepped:Connect(function()
+					if var == true then
+						for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+		        			if v:IsA("BasePart") then
+		            		v.CanCollide = false
+						end
+		        	end
+		    end
+	end)
+	tween:Play()
+	tween.Completed:Connect(function()
+	local i = 0
+	while _G.forthtw do
+		for nums = 7, -7, -1 do
+			for nums2 = -3, 3, .5 do
+				if not _G.forthtw then break end
+	    		root.CFrame = CFrame.new(uroot.Position) * CFrame.Angles(0, i, 0) * CFrame.new(math.abs(nums), math.abs(nums2), math.abs(nums))
+				i = i + math.rad(33.99)
+				wait()
+				end
+		end
+	end
+		var = false
+	end)
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.TextColor3 == Color3.fromRGB(88, 46, 255) then
+			ptw4() else
+			script.Parent.TextColor3 = Color3.fromRGB(88, 46, 255)
+			_G.forthtw = false
+		end
+	end)
+	
+end
+coroutine.wrap(KKBV_fake_script)()
+local function SSOJF_fake_script() -- orbit4.orb4 
+	local script = Instance.new('LocalScript', orbit4)
+
+	function torbit()
+		script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+		_G.fourbit = true
+			local txt = script.Parent.Parent.playerbox4.Text
+			local me = game.Players.LocalPlayer
+			local u = game.Players:FindFirstChild(txt)
+			local root = me.Character.HumanoidRootPart
+			local uroot = u.Character.HumanoidRootPart
+			local twn = game:GetService("TweenService")
+			local speed = 285
+			local dist = (root.Position + uroot.Position).magnitude
+			local tweenspeed = dist/tonumber(speed)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+			
+			local goal = {}
+			goal.CFrame = CFrame.new(uroot.Position)
+			
+			local tween = twn:Create(root, inf, goal)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+	
+			if u == nil then return end 
+			
+			local RunService = game:GetService("RunService")
+				RunService.Stepped:Connect(function()
+					if var == true then
+						for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+		        			if v:IsA("BasePart") then
+		            		v.CanCollide = false
+						end
+		        	end
+		    end
+	end)
+	tween:Play()
+	tween.Completed:Connect(function()
+	local i = 0
+	while _G.fourbit do
+	    root.CFrame = CFrame.new(uroot.Position) * CFrame.Angles(0, i, 0) * CFrame.new(0, 0, 4.5)
+	    i = i + math.rad(33.36)
+	    wait()
+	end
+		var = false
+	end)
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.TextColor3 == Color3.fromRGB(88, 46, 255) then
+			torbit() else
+			script.Parent.TextColor3 = Color3.fromRGB(88, 46, 255)
+			_G.fourbit = false
+		end
+	end)
+	
+end
+coroutine.wrap(SSOJF_fake_script)()
+local function PLCFTWO_fake_script() -- loop5.loopfive 
+	local script = Instance.new('LocalScript', loop5)
+
+	function fiveloop()
+			script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+			_G.five = true
+			spawn(function()
+			while true do
+	        wait()
+	        if _G.five then
+	            local txt = script.Parent.Parent.playerbox5.Text
+				local me = game.Players.LocalPlayer
+				local u = game.Players:FindFirstChild(txt)
+				local twn = game:GetService("TweenService")
+				local speed = 285
+				local dist = (me.Character.HumanoidRootPart.Position - u.Character.HumanoidRootPart.Position).magnitude
+				local tweenspeed = dist/tonumber(speed)
+				local goal = {}
+				goal.CFrame = u.Character.HumanoidRootPart.CFrame
+				local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+				local tween = twn:Create(me.Character.HumanoidRootPart, inf, goal)
+				if u == nil then return end
+			local RunService = game:GetService("RunService")
+	RunService.Stepped:Connect(function()
+	if var == true then
+	for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+		        if v:IsA("BasePart") then
+		            v.CanCollide = false
+					end
+		        end
+		    end
+	end)
+	
+	tween:Play()
+	tween.Completed:Connect(function()
+		var = false
+	end)
+	       end
+	end
+	end)
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.TextColor3 == Color3.fromRGB(88, 46, 255) then
+			fiveloop() else
+			script.Parent.TextColor3 = Color3.fromRGB(88, 46, 255)
+			_G.five = false
+		end
+	end)
+end
+coroutine.wrap(PLCFTWO_fake_script)()
+local function XDLMEV_fake_script() -- twirl5.tw5 
+	local script = Instance.new('LocalScript', twirl5)
+
+	function tw5()
+		script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+		_G.twive = true
+			local txt = script.Parent.Parent.playerbox5.Text
+			local me = game.Players.LocalPlayer
+			local u = game.Players:FindFirstChild(txt)
+			local root = me.Character.HumanoidRootPart
+			local uroot = u.Character.HumanoidRootPart
+			local twn = game:GetService("TweenService")
+			local speed = 285
+			local dist = (root.Position + uroot.Position).magnitude
+			local tweenspeed = dist/tonumber(speed)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+			
+			local goal = {}
+			goal.CFrame = CFrame.new(uroot.Position)
+			
+			local tween = twn:Create(root, inf, goal)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+	
+			if u == nil then return end 
+			
+			local RunService = game:GetService("RunService")
+				RunService.Stepped:Connect(function()
+					if var == true then
+						for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+		        			if v:IsA("BasePart") then
+		            		v.CanCollide = false
+						end
+		        	end
+		    end
+	end)
+	tween:Play()
+	tween.Completed:Connect(function()
+	local i = 0
+	while _G.twive do
+		for nums = 7, -7, -1 do
+			for nums2 = -3, 3, .5 do
+				if not _G.twive then break end
+	    		root.CFrame = CFrame.new(uroot.Position) * CFrame.Angles(0, i, 0) * CFrame.new(math.abs(nums), math.abs(nums2), math.abs(nums))
+				i = i + math.rad(33.99)
+				wait()
+				end
+		end
+	end
+		var = false
+	end)
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.TextColor3 == Color3.fromRGB(88, 46, 255) then
+			tw5() else
+			script.Parent.TextColor3 = Color3.fromRGB(88, 46, 255)
+			_G.twive = false
+		end
+	end)
+	
+end
+coroutine.wrap(XDLMEV_fake_script)()
+local function OEKC_fake_script() -- orbit5.orb5 
+	local script = Instance.new('LocalScript', orbit5)
+
+	function fivebit()
+		script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+		_G.tibfive = true
+			local txt = script.Parent.Parent.playerbox5.Text
+			local me = game.Players.LocalPlayer
+			local u = game.Players:FindFirstChild(txt)
+			local root = me.Character.HumanoidRootPart
+			local uroot = u.Character.HumanoidRootPart
+			local twn = game:GetService("TweenService")
+			local speed = 285
+			local dist = (root.Position + uroot.Position).magnitude
+			local tweenspeed = dist/tonumber(speed)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+			
+			local goal = {}
+			goal.CFrame = CFrame.new(uroot.Position)
+			
+			local tween = twn:Create(root, inf, goal)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+	
+			if u == nil then return end 
+			
+			local RunService = game:GetService("RunService")
+				RunService.Stepped:Connect(function()
+					if var == true then
+						for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+		        			if v:IsA("BasePart") then
+		            		v.CanCollide = false
+						end
+		        	end
+		    end
+	end)
+	tween:Play()
+	tween.Completed:Connect(function()
+	local i = 0
+	while _G.tibfive do
+	    root.CFrame = CFrame.new(uroot.Position) * CFrame.Angles(0, i, 0) * CFrame.new(0, 0, 4.5)
+	    i = i + math.rad(33.36)
+	    wait()
+	end
+		var = false
+	end)
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.TextColor3 == Color3.fromRGB(88, 46, 255) then
+			fivebit() else
+			script.Parent.TextColor3 = Color3.fromRGB(88, 46, 255)
+			_G.tibfive = false
+		end
+	end)
+	
+end
+coroutine.wrap(OEKC_fake_script)()
+local function QTZHRK_fake_script() -- loop6.loopsix 
+	local script = Instance.new('LocalScript', loop6)
+
+	function sixloop()
+			script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+			_G.six = true
+			spawn(function()
+			while true do
+	        wait()
+	        if _G.six then
+	            local txt = script.Parent.Parent.playerbox6.Text
+				local me = game.Players.LocalPlayer
+				local u = game.Players:FindFirstChild(txt)
+				local twn = game:GetService("TweenService")
+				local speed = 285
+				local dist = (me.Character.HumanoidRootPart.Position - u.Character.HumanoidRootPart.Position).magnitude
+				local tweenspeed = dist/tonumber(speed)
+				local goal = {}
+				goal.CFrame = u.Character.HumanoidRootPart.CFrame
+				local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+				local tween = twn:Create(me.Character.HumanoidRootPart, inf, goal)
+				if u == nil then return end
+			local RunService = game:GetService("RunService")
+	RunService.Stepped:Connect(function()
+	if var == true then
+	for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+		        if v:IsA("BasePart") then
+		            v.CanCollide = false
+					end
+		        end
+		    end
+	end)
+	
+	tween:Play()
+	tween.Completed:Connect(function()
+		var = false
+	end)
+	       end
+	end
+	end)
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.TextColor3 == Color3.fromRGB(88, 46, 255) then
+			sixloop() else
+			script.Parent.TextColor3 = Color3.fromRGB(88, 46, 255)
+			_G.six = false
+		end
+	end)
+end
+coroutine.wrap(QTZHRK_fake_script)()
+local function FIAXO_fake_script() -- twirl6.tw6 
+	local script = Instance.new('LocalScript', twirl6)
+
+	function t6w()
+		script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+		_G.swirl = true
+			local txt = script.Parent.Parent.playerbox6.Text
+			local me = game.Players.LocalPlayer
+			local u = game.Players:FindFirstChild(txt)
+			local root = me.Character.HumanoidRootPart
+			local uroot = u.Character.HumanoidRootPart
+			local twn = game:GetService("TweenService")
+			local speed = 285
+			local dist = (root.Position + uroot.Position).magnitude
+			local tweenspeed = dist/tonumber(speed)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+			
+			local goal = {}
+			goal.CFrame = CFrame.new(uroot.Position)
+			
+			local tween = twn:Create(root, inf, goal)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+	
+			if u == nil then return end 
+			
+			local RunService = game:GetService("RunService")
+				RunService.Stepped:Connect(function()
+					if var == true then
+						for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+		        			if v:IsA("BasePart") then
+		            		v.CanCollide = false
+						end
+		        	end
+		    end
+	end)
+	tween:Play()
+	tween.Completed:Connect(function()
+	local i = 0
+	while _G.swirl do
+		for nums = 7, -7, -1 do
+			for nums2 = -3, 3, .5 do
+				if not _G.swirl then break end
+	    		root.CFrame = CFrame.new(uroot.Position) * CFrame.Angles(0, i, 0) * CFrame.new(math.abs(nums), math.abs(nums2), math.abs(nums))
+				i = i + math.rad(33.99)
+				wait()
+				end
+		end
+	end
+		var = false
+	end)
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.TextColor3 == Color3.fromRGB(88, 46, 255) then
+			t6w() else
+			script.Parent.TextColor3 = Color3.fromRGB(88, 46, 255)
+			_G.swirl = false
+		end
+	end)
+	
+end
+coroutine.wrap(FIAXO_fake_script)()
+local function ZEUABCG_fake_script() -- orbit6.orb6 
+	local script = Instance.new('LocalScript', orbit6)
+
+	function sixbit()
+		script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+		_G.sorbet = true
+			local txt = script.Parent.Parent.playerbox6.Text
+			local me = game.Players.LocalPlayer
+			local u = game.Players:FindFirstChild(txt)
+			local root = me.Character.HumanoidRootPart
+			local uroot = u.Character.HumanoidRootPart
+			local twn = game:GetService("TweenService")
+			local speed = 285
+			local dist = (root.Position + uroot.Position).magnitude
+			local tweenspeed = dist/tonumber(speed)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+			
+			local goal = {}
+			goal.CFrame = CFrame.new(uroot.Position)
+			
+			local tween = twn:Create(root, inf, goal)
+			local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+	
+			if u == nil then return end 
+			
+			local RunService = game:GetService("RunService")
+				RunService.Stepped:Connect(function()
+					if var == true then
+						for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+		        			if v:IsA("BasePart") then
+		            		v.CanCollide = false
+						end
+		        	end
+		    end
+	end)
+	tween:Play()
+	tween.Completed:Connect(function()
+	local i = 0
+	while _G.sorbet do
+	    root.CFrame = CFrame.new(uroot.Position) * CFrame.Angles(0, i, 0) * CFrame.new(0, 0, 4.5)
+	    i = i + math.rad(33.36)
+	    wait()
+	end
+		var = false
+	end)
+	end
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.TextColor3 == Color3.fromRGB(88, 46, 255) then
+			sixbit() else
+			script.Parent.TextColor3 = Color3.fromRGB(88, 46, 255)
+			_G.sorbet = false
+		end
+	end)
+	
+end
+coroutine.wrap(ZEUABCG_fake_script)()
+local function KRCVW_fake_script() -- next2.n2s 
+	local script = Instance.new('LocalScript', next2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.pg1.Visible = true
+		script.Parent.Parent.pg2.Visible = false
+		script.Parent.Visible = false
+		script.Parent.Parent.next.Visible = true
+		script.Parent.Parent["1"].TextColor3 = Color3.fromRGB(255, 174, 34)
+		script.Parent.Parent["2"].TextColor3 = Color3.fromRGB(88, 46, 255)
+	end)
+end
+coroutine.wrap(KRCVW_fake_script)()
+local function KGKMYH_fake_script() -- _1.processedBegin 
+	local script = Instance.new('LocalScript', _1)
+
+	_G.processed = true
+end
+coroutine.wrap(KGKMYH_fake_script)()
+local function BUTGDS_fake_script() -- tppbutton.showptps 
+	local script = Instance.new('LocalScript', tppbutton)
+
+	--Show Player Teleports Button
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.hkPage.Visible = false
+		script.Parent.Parent.labels.Visible = true
+	end)
+end
+coroutine.wrap(BUTGDS_fake_script)()
+local function JDJMGB_fake_script() -- hkdbutton.showhks 
+	local script = Instance.new('LocalScript', hkdbutton)
+
+	--Show SH Hotkeys Button
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.processed = false
+		script.Parent.Parent.hkPage.Visible = true
+		script.Parent.Parent.labels.Visible = false
+	end)
+end
+coroutine.wrap(JDJMGB_fake_script)()
+local function HANI_fake_script() -- SHHK.LocalScript 
+	local script = Instance.new('LocalScript', SHHK)
+
+	KeyHeld = false
+	local me = game:GetService("Players").LocalPlayer
+	local mec = me.Character
+	local root = mec:WaitForChild("HumanoidRootPart")
+	local UserInputService = game:GetService("UserInputService")
+	
+	me.CharacterAdded:Connect(function(char)
+		mec = char
+		root = mec:WaitForChild("HumanoidRootPart")
+	end)
+	
+	function onKeyPress(inputObject,gameProcessed)
+		if script.Parent.Text == "" then return end
+	    if inputObject.KeyCode == Enum.KeyCode[script.Parent.Text] then
+	        KeyHeld = true
+			if _G.shLerp then
+	        while KeyHeld do
+					root.CFrame = root.CFrame + root.CFrame.lookVector * tonumber(script.Parent.Parent.speedNum.Text)
+	            wait()
+				end
+			end
+	    end
+	end
+	
+	function onKeyRelease(inputObject,gameProcessed, gameProcessed)
+		if script.Parent.Text == "" then return end
+	    if inputObject.KeyCode == Enum.KeyCode[script.Parent.Text] and not gameProcessed then
+	        KeyHeld = false
+	    end
+	end
+	
+	UserInputService.InputEnded:Connect(function(input)
+				if script.Parent:IsFocused() and input.KeyCode ~= Enum.KeyCode.Unknown then
+				local msg = script.Parent
+				script.Parent.Text = input.KeyCode.Name
+			    if msg.Text == "" then return end
+			    local key = Enum.KeyCode[msg.Text]
+				end
+	end)
+	
+	
+	game:GetService("UserInputService").InputBegan:connect(onKeyPress)
+	game:GetService("UserInputService").InputEnded:connect(onKeyRelease)
+end
+coroutine.wrap(HANI_fake_script)()
+local function RYNG_fake_script() -- SHButton.LSHMS 
+	local script = Instance.new('LocalScript', SHButton)
+
+	_G.shTS = false
+	_G.shLerp = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.TextColor3 == Color3.fromRGB(88, 46, 255) then
+			script.Parent.TextColor3 = Color3.fromRGB(83, 255, 146)
+			_G.shLerp = true
+			
+			script.Parent.Parent.Parent["TS SH Settings"]["TSSH Method Button"].TextColor3 = Color3.fromRGB(88, 46, 255)
+			_G.shTS = false
+		else
+			script.Parent.TextColor3 = Color3.fromRGB(88, 46, 255)
+			_G.shLerp = false
+		end
+	end)
+end
+coroutine.wrap(RYNG_fake_script)()
+local function LZYEL_fake_script() -- ldhk.ldashs 
+	local script = Instance.new('LocalScript', ldhk)
+
+	local UserInputService = game:GetService("UserInputService")
+			 
+			
+	UserInputService.InputBegan:Connect(function(inputObject, gpe)
+		local me = game.Players.LocalPlayer
+		local mec = me.Character or me.CharacterAdded:Wait()
+		local root = mec.HumanoidRootPart
+		
+		if script.Parent.Text == "" then return end
+			local key = Enum.KeyCode[script.Parent.Text]
+			if inputObject.KeyCode == key and not gpe then
+				local loopvar = true
+				while true do
+					wait()
+					if loopvar then
+						loopvar = false
+						if _G.Lerp then
+							local one = root.CFrame
+							local two = root.CFrame * CFrame.new(-3,0,0)
+							for i= 1,5,2 do
+								root.CFrame=one:lerp(two,i)
+									wait()
+					        	end
+						elseif _G.TS then
+							local spd = 2463
+							local dist = (root.CFrame.p * Vector3.new(-15,0,0)).magnitude
+							local twnspd = dist/tonumber(spd)
+							local TweenService = game:GetService("TweenService")
+							local goal = {}
+							goal.CFrame = root.CFrame * CFrame.new(-15,0,0)
+							local tweenInfo = TweenInfo.new(twnspd)
+										 
+							local tween = TweenService:Create(root, tweenInfo, goal)
+											 
+							tween:Play()
+					end
+				end
+			end
+		end
+	end)
+			
+	UserInputService.InputEnded:Connect(function(input)
+				if script.Parent:IsFocused() and input.KeyCode ~= Enum.KeyCode.Unknown then
+				local msg = script.Parent
+				script.Parent.Text = input.KeyCode.Name
+			    if msg.Text == "" then return end
+			    local key = Enum.KeyCode[msg.Text]
+				end
+	end)
+	
+	
+end
+coroutine.wrap(LZYEL_fake_script)()
+local function UOTLT_fake_script() -- rdhk.rdashs 
+	local script = Instance.new('LocalScript', rdhk)
+
+	local UserInputService = game:GetService("UserInputService")
+			
+			UserInputService.InputBegan:Connect(function(inputObject, gpe)
+				local me = game.Players.LocalPlayer
+			 	local mec = me.Character or me.CharacterAdded:Wait()
+			 	local root = mec.HumanoidRootPart
+				local loopvar = true
+				
+				if script.Parent.Text == "" then return end
+			    local key = Enum.KeyCode[script.Parent.Text]
+			    if inputObject.KeyCode == key and not gpe then
+					while true do
+					wait()
+					if loopvar then
+					loopvar = false
+					if _G.Lerp then
+							local one = root.CFrame
+							local two = root.CFrame * CFrame.new(3,0,0)
+							for i= 1,5,2 do
+							    root.CFrame=one:lerp(two,i)
+							    wait()
+							end
+			            
+					        elseif _G.TS then
+									local spd = 2463
+									local dist = (root.CFrame.p * Vector3.new(15,0,0)).magnitude
+									local twnspd = dist/tonumber(spd)
+									local TweenService = game:GetService("TweenService")
+									local goal = {}
+									goal.CFrame = root.CFrame * CFrame.new(15,0,0)
+									local tweenInfo = TweenInfo.new(twnspd)
+									 
+									local tween = TweenService:Create(root, tweenInfo, goal)
+									 
+									tween:Play()
+					          end
+					end
+					end
+					end
+			end)
+			
+	UserInputService.InputEnded:Connect(function(input)
+				if script.Parent:IsFocused() and input.KeyCode ~= Enum.KeyCode.Unknown then
+				local msg = script.Parent
+				script.Parent.Text = input.KeyCode.Name
+			    if msg.Text == "" then return end
+			    local key = Enum.KeyCode[msg.Text]
+				end
+	end)
+	
+end
+coroutine.wrap(UOTLT_fake_script)()
+local function HDWHR_fake_script() -- bdhk.bdashs 
+	local script = Instance.new('LocalScript', bdhk)
+
+	local UserInputService = game:GetService("UserInputService")
+			
+			UserInputService.InputBegan:Connect(function(inputObject, gpe)
+				local me = game.Players.LocalPlayer
+				local mec = me.Character or me.CharacterAdded:Wait()
+				local root = mec.HumanoidRootPart
+				local loopvar = true
+				
+				
+				if script.Parent.Text == "" then return end
+			     key = Enum.KeyCode[script.Parent.Text]
+			    if inputObject.KeyCode == key and not gpe then
+				while true do
+				wait()
+				if loopvar then
+				loopvar = false
+				if _G.Lerp then
+							local one = root.CFrame
+							local two = root.CFrame * CFrame.new(0,0,5)
+							for i= 1,5,2 do
+							    root.CFrame=one:lerp(two,i)
+							    wait()
+							end
+			            
+			        elseif _G.TS then
+									local spd = 2463
+									local dist = (root.CFrame.p * Vector3.new(0,0,16)).magnitude
+									local twnspd = dist/tonumber(spd)
+									local TweenService = game:GetService("TweenService")
+									local goal = {}
+									goal.CFrame = root.CFrame * CFrame.new(0,0,16)
+									local tweenInfo = TweenInfo.new(twnspd)
+									 
+									local tween = TweenService:Create(root, tweenInfo, goal)
+									 
+									tween:Play()
+				end
+				end
+				end
+			            
+			    end
+			end)
+			
+	UserInputService.InputEnded:Connect(function(input)
+				if script.Parent:IsFocused() and input.KeyCode ~= Enum.KeyCode.Unknown then
+				local msg = script.Parent
+				script.Parent.Text = input.KeyCode.Name
+			    if msg.Text == "" then return end
+			     key = Enum.KeyCode[msg.Text]
+				end
+	end)
+	
+end
+coroutine.wrap(HDWHR_fake_script)()
+local function CAKRI_fake_script() -- fdhk.fdashs 
+	local script = Instance.new('LocalScript', fdhk)
+
+	local UserInputService = game:GetService("UserInputService")
+			
+			UserInputService.InputBegan:Connect(function(inputObject, gpe)
+				if script.Parent.Text == "" then return end
+				local me = game:GetService("Players").LocalPlayer
+				local  mec = me.Character or me.CharacterAdded:Wait()
+				local  root = mec:WaitForChild("HumanoidRootPart")
+				local  loopvar = true
+				
+			    local key = Enum.KeyCode[script.Parent.Text]
+			    if inputObject.KeyCode == key and not gpe then
+					while true do
+					wait()
+					if loopvar then
+					loopvar = false
+					if _G.Lerp then
+							local one = root.CFrame
+							local two = root.CFrame * CFrame.new(0,0,-5)
+							for i= 1,5,2 do
+							    root.CFrame=one:lerp(two,i)
+							    wait()
+							end
+			            
+					        elseif _G.TS then
+								local spd = 2463
+								local dist = (root.CFrame.p * Vector3.new(0,0,-16)).magnitude
+								local twnspd = dist/tonumber(spd)
+								local TweenService = game:GetService("TweenService")
+								local goal = {}
+								goal.CFrame = root.CFrame * CFrame.new(0,0,-16)
+								local tweenInfo = TweenInfo.new(twnspd)
+								local tween = TweenService:Create(root, tweenInfo, goal)
+								tween:Play()
+			            
+					end
+					end
+					end
+			    end
+			end)
+			
+	UserInputService.InputEnded:Connect(function(input)
+				if script.Parent:IsFocused() and input.KeyCode ~= Enum.KeyCode.Unknown then
+				local msg = script.Parent
+				script.Parent.Text = input.KeyCode.Name
+			    if msg.Text == "" then return end
+			    local key = Enum.KeyCode[msg.Text]
+				end
+	end)
+	
+end
+coroutine.wrap(CAKRI_fake_script)()
+local function CWTNSLI_fake_script() -- p1hk.p1hks 
+	local script = Instance.new('LocalScript', p1hk)
+
+	local UserInputService = game:GetService("UserInputService")
+			 me = game:GetService("Players").LocalPlayer
+			 mec = me.Character or me.CharacterAdded:Wait()
+			 root = mec:WaitForChild("HumanoidRootPart")
+			 debounce = false
+			
+			UserInputService.InputBegan:Connect(function(inputObject, gpe)
+				if script.Parent.Text == "" then return end
+			    local key = Enum.KeyCode[script.Parent.Text]
+			    if inputObject.KeyCode == key and not gpe then
+					local loopvar = true
+					while true do
+						wait()
+						if loopvar then
+							loopvar = false
+							local txt = script.Parent.Parent.Parent.pg1.playerbox.Text
+							local me = game.Players.LocalPlayer
+							local mec = me.Character or me.CharacterAdded:Wait()
+							local root = mec.HumanoidRootPart
+							local uroot = game.Players:FindFirstChild(txt).Character.HumanoidRootPart
+							local u = game.Players:FindFirstChild(txt)
+							local twn = game:GetService("TweenService")
+							local speed = 290
+							local dist = (root.Position - uroot.Position).magnitude
+							local tweenspeed = dist/speed
+							
+							local goal = {}
+							goal.CFrame = uroot.CFrame
+							local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+							local tween = twn:Create(root, inf, goal)
+							local var = true
+							
+							local RunService = game:GetService("RunService")
+							RunService.Stepped:Connect(function()
+								if var == true then
+							for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+								        if v:IsA("BasePart") then
+								            v.CanCollide = false
+											end
+								        end
+									    end
+								end)
+						
+						tween:Play()
+						tween.Completed:Connect(function()
+							var = false
+						end)
+						if u == nil then return end
+						end
+					end
+			    end
+			end)
+			
+	UserInputService.InputEnded:Connect(function(input)
+				if script.Parent:IsFocused() and input.KeyCode ~= Enum.KeyCode.Unknown then
+				local msg = script.Parent
+				script.Parent.Text = input.KeyCode.Name
+			    if msg.Text == "" then return end
+			    local key = Enum.KeyCode[msg.Text]
+				end
+	end)
+	
+end
+coroutine.wrap(CWTNSLI_fake_script)()
+local function RWET_fake_script() -- p2hk.fdashs 
+	local script = Instance.new('LocalScript', p2hk)
+
+	local UserInputService = game:GetService("UserInputService")
+			 me = game:GetService("Players").LocalPlayer
+			 mec = me.Character or me.CharacterAdded:Wait()
+			 root = mec:WaitForChild("HumanoidRootPart")
+			 debounce = false
+			
+			UserInputService.InputBegan:Connect(function(inputObject, gpe)
+				if script.Parent.Text == "" then return end
+			    local key = Enum.KeyCode[script.Parent.Text]
+			    if inputObject.KeyCode == key and not gpe then
+					
+					local loopvar = true
+					while true do
+					wait()
+					if loopvar then
+						loopvar = false
+						local txt = script.Parent.Parent.Parent.pg1.playerbox2.Text
+						local me = game.Players.LocalPlayer
+						local root = me.Character.HumanoidRootPart
+						local uroot = game.Players:FindFirstChild(txt).Character.HumanoidRootPart
+						local u = game.Players:FindFirstChild(txt)
+						local twn = game:GetService("TweenService")
+						local speed = 290
+						local dist = (root.Position - uroot.Position).magnitude
+						local tweenspeed = dist/speed
+						
+						local goal = {}
+						goal.CFrame = uroot.CFrame
+						local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+						local tween = twn:Create(root, inf, goal)
+						local var = true
+						
+						
+						local RunService = game:GetService("RunService")
+						RunService.Stepped:Connect(function()
+							if var == true then
+						for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+							        if v:IsA("BasePart") then
+							            v.CanCollide = false
+										end
+							        end
+								    end
+							end)
+					
+					tween:Play()
+					tween.Completed:Connect(function()
+						var = false
+					end)
+					if u == nil then return end
+					end
+					end
+			    end
+			end)
+			
+	UserInputService.InputEnded:Connect(function(input)
+				if script.Parent:IsFocused() and input.KeyCode ~= Enum.KeyCode.Unknown then
+				local msg = script.Parent
+				script.Parent.Text = input.KeyCode.Name
+			    if msg.Text == "" then return end
+			    local key = Enum.KeyCode[msg.Text]
+				end
+	end)
+	
+end
+coroutine.wrap(RWET_fake_script)()
+local function OLFGHV_fake_script() -- p3hk.fdashs 
+	local script = Instance.new('LocalScript', p3hk)
+
+	local UserInputService = game:GetService("UserInputService")
+			 me = game:GetService("Players").LocalPlayer
+			 mec = me.Character or me.CharacterAdded:Wait()
+			 root = mec:WaitForChild("HumanoidRootPart")
+			 debounce = false
+			
+			UserInputService.InputBegan:Connect(function(inputObject, gpe)
+				if script.Parent.Text == "" then return end
+			    local key = Enum.KeyCode[script.Parent.Text]
+			    if inputObject.KeyCode == key and not gpe then
+					local loopvar = true
+					while true do
+						wait()
+						if loopvar then
+							loopvar = false
+							local txt = script.Parent.Parent.Parent.pg1.playerbox3.Text
+							local me = game.Players.LocalPlayer
+							local root = me.Character.HumanoidRootPart
+							local uroot = game.Players:FindFirstChild(txt).Character.HumanoidRootPart
+							local u = game.Players:FindFirstChild(txt)
+							local twn = game:GetService("TweenService")
+							local speed = 290
+							local dist = (root.Position - uroot.Position).magnitude
+							local tweenspeed = dist/speed
+							
+							local goal = {}
+							goal.CFrame = uroot.CFrame
+							local inf = TweenInfo.new(tonumber(tweenspeed), Enum.EasingStyle.Linear)
+							local tween = twn:Create(root, inf, goal)
+							local var = true
+							
+							local RunService = game:GetService("RunService")
+							RunService.Stepped:Connect(function()
+								if var == true then
+							for i,v in pairs(game:GetService("Players").LocalPlayer.Character:GetChildren()) do
+								        if v:IsA("BasePart") then
+								            v.CanCollide = false
+											end
+								        end
+									    end
+								end)
+						
+						tween:Play()
+						tween.Completed:Connect(function()
+							var = false
+						end)
+						if u == nil then return end
+						end
+					end
+			    end
+			end)
+			
+	UserInputService.InputEnded:Connect(function(input)
+				if script.Parent:IsFocused() and input.KeyCode ~= Enum.KeyCode.Unknown then
+				local msg = script.Parent
+				script.Parent.Text = input.KeyCode.Name
+			    if msg.Text == "" then return end
+			    local key = Enum.KeyCode[msg.Text]
+				end
+	end)
+	
+end
+coroutine.wrap(OLFGHV_fake_script)()
+local function PLETKJ_fake_script() -- MethodButton.mbs 
+	local script = Instance.new('LocalScript', MethodButton)
+
+	_G.TS = true
+	script.Parent.MouseButton1Click:Connect(function()
+		if script.Parent.Text == "Tween" then
+			_G.TS = false
+			_G.Lerp = true
+			script.Parent.Text = "Classic"
+		else
+			_G.TS = true
+			_G.Lerp = false
+			script.Parent.Text = "Tween"
+		end
+	end)
+end
+coroutine.wrap(PLETKJ_fake_script)()
+local function CURC_fake_script() -- stoptweenbutton.stbs 
+	local script = Instance.new('LocalScript', stoptweenbutton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local TweenService = game:GetService("TweenService")
+	 
+		local root = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
+		
+		local goal = {}
+		goal.CFrame = root.CFrame
+		 
+		local tweenInfo = TweenInfo.new(0.1)
+		 
+		local tween = TweenService:Create(root, tweenInfo, goal)
+		 
+		tween:Play()
+	end)
+end
+coroutine.wrap(CURC_fake_script)()
+local function CGJRV_fake_script() -- open.LocalScript 
+	local script = Instance.new('LocalScript', open)
+
+	function open()
+		script.Parent.Parent.back.Visible = true
+	end
+	
+	script.Parent.MouseButton1Click:Connect(open)
+end
+coroutine.wrap(CGJRV_fake_script)()
+local function MKBKTVM_fake_script() -- close.LocalScript 
+	local script = Instance.new('LocalScript', close)
+
+	function close()
+		script.Parent.Parent.back.Visible = false
+	end
+	
+	script.Parent.MouseButton1Click:Connect(close)
+end
+coroutine.wrap(MKBKTVM_fake_script)()
+local function PLGXYQ_fake_script() -- bar.LocalScript 
+	local script = Instance.new('LocalScript', bar)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(PLGXYQ_fake_script)()
